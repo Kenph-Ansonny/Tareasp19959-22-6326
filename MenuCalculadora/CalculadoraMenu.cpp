@@ -1,4 +1,4 @@
-//Fecha: 06-02-2023     Autor: Kenph Luna
+//Fecha: 06-02-2023     Autor: Kenph Luna - Programacion 1
 //Programa de Calculadora Basica utilizando funciones
 #include <iostream>
 #include <cstdlib>
@@ -20,6 +20,7 @@ void factorial();
 void hipoTriangulo();
 void formulaCuadratica();
 void funTrigonometricas();
+void numeroExponente();
 
 int main()
 {
@@ -114,8 +115,9 @@ void menuOperacionesExtendidas()
         cout << "\t 1 - Factorial" << endl;
         cout << "\t 2 - Hipotenusa de un Triangulo Rectangulo" << endl;
         cout << "\t 3 - Formula Cuadratica" << endl;
-        cout << "\t 4 - Seno - Coseno - Tangente de un grado" << endl;
-        cout << "\t 5 - SALIR -" << endl;
+        cout << "\t 4 - Seno - Coseno - Tangente de un Grado" << endl;
+        cout << "\t 5 - Elevar un Numero a Cualquier Exponente" << endl;
+        cout << "\t 6 - SALIR -" << endl;
         cout << "\n\t Ingrese Una Opcion: ";
         cin >> options;
 
@@ -134,6 +136,9 @@ void menuOperacionesExtendidas()
            funTrigonometricas();
         break;
         case 5:
+            numeroExponente();
+        break;
+        case 6:
             repetir = false;
         break;
         }
@@ -299,12 +304,34 @@ void funTrigonometricas()
     cout << "\n\tCalculadora de Seno - Coseno - Tangente" << endl;
     cout << "\t\-----------------------------------------" << endl;
 
-    cout << "\n\t Ingrese el Valor Valor a Convertir (grado): ";
+    cout << "\n\t Ingrese el Valor a Convertir (grado): ";
     cin >> grado;
 
     cout << "\tEl Seno del Grado es = " << sin(grado) << endl;
     cout << "\tEl Coseno del Grado es = " << cos(grado) << endl;
     cout << "\tLa Tangente del Grado es = " << tan(grado) << endl;
+
+    system("pause>nul");
+}
+
+void numeroExponente()
+{
+   system("cls");
+
+    float numero,exponente,resultado;
+
+
+    cout << "\n\tCalculadora que eleva cualquier numero a calquier exponente" << endl;
+    cout << "\t\-----------------------------------------" << endl;
+
+    cout << "\n\t Ingrese el Numero que desea elevar: ";
+    cin >> numero;
+    cout << "\n\t Ingrese el exponente al que desea elevar: ";
+    cin >> exponente;
+
+    resultado = pow(numero,exponente);
+
+    cout << "\n\t " << numero << "^" << exponente << " = " << resultado << endl;
 
     system("pause>nul");
 }
