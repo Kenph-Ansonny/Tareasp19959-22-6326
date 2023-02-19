@@ -76,11 +76,11 @@ void notaAlumnos()
 
     } else {
     cout << "\n\Con su nota de Calculo: " << nota1 << " ,Fisica: " << nota2 << " ,Ingles: " << nota3 << " ,Programacion: " << nota4 << " y Contabilidad: " << nota5 << endl;
-    cout << "\nHa obtenido un promedio de: " << promedio << " Usted " << nombre << " Aprobo el Semestre" ;
+    cout << "\nHa obtenido un promedio de: " << promedio << " Usted " << nombre << " No Aprobo el Semestre" ;
     }
-    cout<<"\n Desea Continuar (S/N)? ";
+    cout<<"\n Desea Continuar (Y/N)? ";
 		cin>>inicio;
-	} while ((inicio=='S')||(inicio=='s'));
+	} while ((inicio=='Y')||(inicio=='y'));
 	cout<<"\n\t QUE TENGA UN EXCELENTE DIA!!"<<endl;
 
     system("pause>nul");
