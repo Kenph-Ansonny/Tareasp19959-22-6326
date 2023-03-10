@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1678405318 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\ligas_nacionales\ligas_nacionales_examen_serie3\src\ligas_f_b_n.cpp
+	"Ligas_F_B_N.h"
+
+1678405121 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\ligas_nacionales\ligas_nacionales_examen_serie3\include\ligas_f_b_n.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1678405318 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\ligas_nacionales\ligas_nacionales_examen_serie3\main.cpp
+	<iostream>
+	"Ligas_F_B_N.h"
+

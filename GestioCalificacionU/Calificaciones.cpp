@@ -1,6 +1,4 @@
-//Autor: Kenph Luna
-//Fecha: 15-02-2023
-//Codigo de C escrito en C++
+//Autor Kenph Luna
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,78 +10,54 @@
 using namespace std;
 
 //Constantes
-const int NUMERO_ALUMNOS = 10;
-const int NUMERO_MATERIAS = 4;
-const int MAX_CALIFICACION = 100;
-const int MIN_CALIFICACION = 0;
+const int NUMERO_CLASES = 5;
+const int NUMERO_CALIFICACIONES = 4;
+
+//Parcial 1 y Actividades
+const int MAX_CALIFICACIONP1 = 20;
+const int MIN_CALIFICACIONP1 = 0;
+
+//Parcial2
+const int MAX_CALIFICACIONP2 = 25;
+const int MIN_CALIFICACIONP2 = 0;
+
+//Examen Final
+const int MAX_CALIFICACIONE = 35;
+const int MIN_CALIFICACIONE = 0;
+
 const int MAXIMA_LONGITUD_CADENA = 100;
 
 //Funcion con Parametros
 int busquedaAleatorios(int minimo, int maximo);
 
 //Prototipos
-void llenarMatriz(float matriz[NUMERO_ALUMNOS][NUMERO_MATERIAS + 1]);
+void llenarMatriz(float matriz[NUMERO_CLASES][NUMERO_CALIFICACIONES + 1]);
 void imprimirMatrizLinea();
-void imprimirMatriz(float matriz[NUMERO_ALUMNOS][NUMERO_MATERIAS + 1], char alumnos[NUMERO_ALUMNOS][MAXIMA_LONGITUD_CADENA]);
+void imprimirMatriz(float matriz[NUMERO_CLASES][NUMERO_CALIFICACIONES + 1], char alumnos[NUMERO_CLASES][MAXIMA_LONGITUD_CADENA]);
 int main()
 {
     srand(getpid());
-    float matriz[NUMERO_ALUMNOS][NUMERO_MATERIAS + 1];
-    char alumnos[NUMERO_ALUMNOS][MAXIMA_LONGITUD_CADENA] = {"Jorge","Kenph","Mario","Luis","Alberto","Luisa","Roberta","Asdf", "sdfsfa", "adf"};
+    float matriz[NUMERO_CLASES][NUMERO_CALIFICACIONES + 1];
+    char alumnos[NUMERO_CLASES][MAXIMA_LONGITUD_CADENA] = {"Calculo","Progra","Fisica","Derecho","Sistemas"};
     llenarMatriz(matriz);
     imprimirMatriz(matriz, alumnos);
 }
-
-int busquedaAleatoriosP1(int minimo, int maximo)
+int busquedaAleatorios(int minimo, int maximo)
 {
     return minimo + rand() / (RAND_MAX / (maximo - minimo + 1) + 1);
 }
 
-void llenarMatriz(float matriz[NUMERO_ALUMNOS][NUMERO_MATERIAS + 1])
+void llenarMatriz(float matriz[NUMERO_CLASES][NUMERO_CALIFICACIONES + 1])
 {
-     float suma = 0;
     int y, x;
-    for (y = 0; y < NUMERO_ALUMNOS; y++)
+    for (y = 0; y < NUMERO_CLASES; y++)
     {
-
-        for (x = 0; x < NUMERO_MATERIAS; x++)
+        float suma = 0;
+        for (x = 0; x < NUMERO_CALIFICACIONES; x++)
         {
-            int calificacion = busquedaAleatoriosP1(MIN_CALIFICACION, MAX_CALIFICACION);
-            suma += (float)calificacion/5;
-            matriz[y][0] = calificacion;
-        }
-        float promedio = suma / NUMERO_MATERIAS;
-        matriz[y][NUMERO_MATERIAS] = promedio;
-    }
-    for (y = 0; y < NUMERO_ALUMNOS; y++)
-    {
-        for (x = 0 ;x < NUMERO_MATERIAS; x++)
-        {
-            int calificacion = busquedaAleatoriosP1(MIN_CALIFICACION, MAX_CALIFICACION);
-            suma += (float)calificacion/5;
-            matriz[y][1] = calificacion;
-        }
-        float promedio = suma / NUMERO_MATERIAS;
-        matriz[y][NUMERO_MATERIAS] = promedio;
-    }
-    for (y = 0; y < NUMERO_ALUMNOS; y++)
-    {
-        for (x = 0; x < NUMERO_MATERIAS; x++)
-        {
-            int calificacion = busquedaAleatoriosP1(MIN_CALIFICACION, MAX_CALIFICACION);
-            suma = (matriz[1][1]+ matriz[1][2]+ matriz[1][3]+matriz[1][4]+matriz[1][5])/5;
-            matriz[y][2] = calificacion;
-        }
-        float promedio = suma / NUMERO_MATERIAS;
-        matriz[y][NUMERO_MATERIAS] = promedio;
-    }
-    for (y = 0; y < NUMERO_ALUMNOS; y++)
-    {
-        for (x = 0; x < NUMERO_MATERIAS; x++)
-        {
-            int calificacion = busquedaAleatoriosP1(MIN_CALIFICACION, MAX_CALIFICACION);
-            suma += (float)calificacion/5;
-            matriz[y][3] = calificacion;
+            int calificacion = busquedaAleatorios(MIN_CALIFICACION, MAX_CALIFICACION);
+            suma += (float)calificacion;
+            matriz[y][x] = calificacion;
         }
         float promedio = suma / NUMERO_MATERIAS;
         matriz[y][NUMERO_MATERIAS] = promedio;
@@ -114,7 +88,7 @@ void imprimirMatriz(float matriz[NUMERO_ALUMNOS][NUMERO_MATERIAS + 1], char alum
     cout << setw(9) << "Alumno";
     for (x = 0; x < NUMERO_MATERIAS; x++)
     {
-        cout << setw(9) << "Nota" << x + 1;
+        cout << setw(9) << "P1" << x + 1;
     }
     cout << setw(8) << "Prom" << endl;
     imprimirMatrizLinea();
