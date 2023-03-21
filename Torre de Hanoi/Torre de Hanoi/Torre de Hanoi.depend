@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1679359101 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\torre de hanoi\main.cpp
+	<iostream>
+	"Hanoi.h"
+
+1679359447 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\torre de hanoi\include\hanoi.h
+	<iostream>
+	<math.h>
+	<cstdlib>
+
+1679359335 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\torre de hanoi\src\hanoi.cpp
+	"Hanoi.h"
+
