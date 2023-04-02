@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1680229609 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\crud_archivos_secuenciales\main.cpp
+	<iostream>
+	"persona.h"
+
+1680276986 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\crud_archivos_secuenciales\include\persona.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
