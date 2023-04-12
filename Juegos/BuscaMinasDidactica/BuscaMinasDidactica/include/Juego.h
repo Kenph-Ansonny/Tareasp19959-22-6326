@@ -1,6 +1,7 @@
 #ifndef JUEGO_H
 #define JUEGO_H
 #include "Tablero.h"
+#include "Jugador.h"
 
 class Juego // iniciación del juego
 {

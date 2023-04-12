@@ -36,11 +36,7 @@ void persona::menu()
     {
     case 1:
     	do
-    	{
     		insertar();
-    		cout<<"\n\t\t\t Agrega otra persona(Y,N): ";
-    		cin>>x;
-		}while(x=='y'||x=='Y');
 		break;
 	case 2:
 		desplegar();

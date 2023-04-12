@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include "Juego.h"
 #include "Config.h"
+#include "Jugador.h"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main()
     //Se crean las siguietnes estructuras
     Config configuracionJuego(FILASTABLERO, COLUMNASTABLERO, MINASENTABLERO, MODODESARROLLADOR, VIDASTABLERO);
     Juego juego(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
-    juego.dibujarPortada("portada.txt");
+    juego.dibujarPortada("portada2.txt");
     //Para obtener numeros aleatorios
     srand(getpid());
     int opciones;
@@ -29,9 +30,10 @@ int main()
         //imprime en pantalla
         cout << "\n\n\t\tBUSCA MINAS -Menu-" << endl;
         cout << "\t\t-------------------"<< endl;
-        cout << "\t\t1. Configuaracion del Juego" << endl;
+        cout << "\t\t1. Configuracion del Juego" << endl;
         cout << "\t\t2. Iniciar el Juego" << endl;
-        cout << "\t\t3. Salir del Juego" << endl;
+        cout << "\t\t3. Ingresar Perfil de Jugador" << endl;
+        cout << "\t\t4. Salir del Juego" << endl;
         cout << "\n\t\tIngrese una opcion: ";
         cin >> opciones;
         //Un switch para crear el meno tipo do while
@@ -55,7 +57,17 @@ int main()
                 system("pause");
                 break;
             }
-        case 3: repetir = false;    //Si se ingresa 3 repetir se vuelve falso y cierra el programa. No sin antes mostrar los creditos
+            case 3:
+            {
+
+              	Jugador usuario;
+                usuario.menuJugador();
+
+                //Se crea una pausa
+                system("pause");
+                break;
+            }
+        case 4: repetir = false;    //Si se ingresa 3 repetir se vuelve falso y cierra el programa. No sin antes mostrar los creditos
                 break;
         }
     } while (repetir);

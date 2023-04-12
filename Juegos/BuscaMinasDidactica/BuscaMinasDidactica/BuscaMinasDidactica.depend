@@ -62,14 +62,16 @@
 
 1680103073 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
 
-1680392822 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+1681253022 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
 	<iostream>
 	<unistd.h>
 	"Juego.h"
 	"Config.h"
+	"Jugador.h"
 
-1680457785 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+1681258439 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
 	"Tablero.h"
+	"Jugador.h"
 
 1680305299 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
 	<iostream>
@@ -89,13 +91,33 @@
 	<unistd.h>
 	"Config.h"
 
-1680458169 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+1680458249 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
 	"Tablero.h"
 	<sstream>
 	<iostream>
 
-1680458186 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+1681258315 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
 	"Juego.h"
 	<fstream>
 	<unistd.h>
+	<fstream>
+	"Jugador.h"
+
+1681312053 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1681258238 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
 

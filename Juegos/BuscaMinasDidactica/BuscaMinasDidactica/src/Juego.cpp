@@ -1,6 +1,8 @@
 #include "Juego.h"
 #include <fstream>
 #include <unistd.h>
+#include<fstream>
+#include "Jugador.h"
 
 int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleatoria los numeros que se muestran en tablero
 	{
@@ -41,18 +43,22 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 
 	int Juego::solicitarFilaUsuario() // le solicita al jugador cuantas filas va crear en su tablero
 	{
+        fstream file
 		int fila = 0;
-		cout << "Ingresa la FILA en la que desea jugar: ";
+		cout << "Ingresa la FILA en la que desea jugar "<< apodo << " :";
 		cin >> fila;
 		return fila - 1;
+
 	}
 
 	int Juego::solicitarColumnaUsuario()//le solicita al jugador cuantas columnas va a crear en su tablero
 	{
+        Jugador jugador;
 		int columna = 0;
-		cout << "Ingresa la COLUMNA en la que desea jugar: ";
+		cout << "Ingresa la COLUMNA en la que desea jugar "  <<" :";
 		cin >> columna;
 		return columna - 1;
+
 	}
 
 	bool Juego::jugadorGana()// reconoce cuando el jugar gana sin encontrar una mina
