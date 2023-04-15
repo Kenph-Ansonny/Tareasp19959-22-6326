@@ -13,12 +13,12 @@ using namespace std;
 class Jugador       //Clase jugador
 {
     public: //constructores para la clase
-        menuJugador();
-        agregarJugador();
-        mostrarJugadores();
-        modificarJugadores();
-        buscarJugador();
-        borrarJugador();
+        void menuJugador();
+        void agregarJugador();
+        void mostrarJugadores();
+        void modificarJugadores();
+        void buscarJugador();
+        void borrarJugador();
         //string getapodo();
 
 

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Jugador::menuJugador()  //Creación del constructor MenuJugador
+void Jugador::menuJugador()  //Creación del constructor MenuJugador
 {
     int opcion;
 	char x;
@@ -60,20 +60,20 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 
 }
 
- Jugador::agregarJugador()      //Constructor de la clase Jugador, agregarJugador
+ void Jugador::agregarJugador()      //Constructor de la clase Jugador, agregarJugador
 {
 	system("cls");      //limpia pantalla
 	fstream file;       //creacion variable file de la libreria fstream
 	cout<<"\n-----------------------------------------------------------------------------------------------";
 	cout<<"\n------------------------------------------------- Agregar Jugador ----------------------------"<<endl;
 	//Ingreso de datos
-	cout<<"\t\t\tIngresa ID del Jugador        : ";
+	cout<<"\t\t\tIngresa ID del Jugador     : ";
 	cin>>id;
-	cout<<"\t\t\tIngresa Nombre del Jugador        : ";
+	cout<<"\t\t\tIngresa Nombre del Jugador : ";
 	cin>>nombre;
-	cout<<"\t\t\tIngresa tu Apodo     : ";
-	cin>> apodo;
-	cout<<"\t\t\tIngresa la Contraseña   : ";
+	cout<<"\t\t\tIngresa tu Apodo           : ";
+	cin>>apodo;
+	cout<<"\t\t\tIngresa la Contraseña      : ";
 	cin>>contrasena;
 
 	//Abre archivo y luego lo ve al final de la salida
@@ -82,7 +82,7 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 	file.close();   //Cierra el archivo
 }
 
- Jugador::mostrarJugadores()        //Creación del constructor de la clase Jugador, mostrarJugadores
+ void Jugador::mostrarJugadores()        //Creación del constructor de la clase Jugador, mostrarJugadores
 {
 	system("cls");  //limpia pantalla
 	fstream file;   //crea
@@ -114,7 +114,7 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 	file.close();
 }
 
- Jugador::modificarJugadores()  //Creacion de la clase Jugador, modificarJugadores
+ void Jugador::modificarJugadores()  //Creacion de la clase Jugador, modificarJugadores
 {
 	system("cls");
 	fstream file,file1;
@@ -149,8 +149,7 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 				cin>>apodo;
 				cout<<"\t\t\tIngrese la contraseña del Jugador: ";
 				cin>>contrasena;
-
-				file1<<std::left<<std::setw(15)<< id <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apodo <<std::left<<std::setw(15)<< contrasena << "\n";
+                file1<<std::left<<std::setw(15)<< id <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< apodo <<std::left<<std::setw(15)<< contrasena << "\n";
 				found++;
 			}
 			file >> id >> nombre >> apodo >> contrasena;
@@ -158,17 +157,17 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 		}
 		file1.close();
 		file.close();
-		remove("JugadorRecord.txt");
-		rename("Record.txt","JugadorRecord.txt");
+		remove("Jugador.txt");
+		rename("Record.txt","Jugador.txt");
 	}
 }
 
- Jugador::buscarJugador()       //Creacion de la clase Jugador, buscarJugadores
+ void Jugador::buscarJugador()       //Creacion de la clase Jugador, buscarJugadores
 {
 	system("cls");
 	fstream file;
 	int found=0;
-	file.open("JugadortRecord.txt",ios::in);
+	file.open("Jugador.txt",ios::in);
 	if(!file)
 	{
 		cout<<"\n-------------------------Datos del Jugador buscado------------------------"<<endl;
@@ -201,14 +200,14 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 	}
 }
 
- Jugador::borrarJugador()       //Creacion constructor de la clase Jugador, borrarJugador
+ void Jugador::borrarJugador()       //Creacion constructor de la clase Jugador, borrarJugador
 {
 	system("cls");
 	fstream file,file1;
 	string jugador_id;
 	int found=0;
 	cout<<"\n-------------------------Detalles del Jugador a Borrar-------------------------"<<endl;
-	file.open("JugadorRecord.txt",ios::in);
+	file.open("Jugador.txt",ios::in);
 	if(!file)
 	{
 		cout<<"\n\t\t\tNo hay informacion...";
@@ -239,7 +238,7 @@ Jugador::menuJugador()  //Creación del constructor MenuJugador
 		}
 		file1.close();
 		file.close();
-		remove("JugadorRecord.txt");
-		rename("Record.txt","JugadorRecord.txt");
+		remove("Jugador.txt");
+		rename("Record.txt","Jugador.txt");
 	}
 }

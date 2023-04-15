@@ -43,9 +43,9 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 
 	int Juego::solicitarFilaUsuario() // le solicita al jugador cuantas filas va crear en su tablero
 	{
-        fstream file
+
 		int fila = 0;
-		cout << "Ingresa la FILA en la que desea jugar "<< apodo << " :";
+		cout << "Ingresa la FILA en la que desea jugar " << " :";
 		cin >> fila;
 		return fila - 1;
 

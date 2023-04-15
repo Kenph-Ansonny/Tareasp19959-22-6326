@@ -96,14 +96,14 @@
 	<sstream>
 	<iostream>
 
-1681258315 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+1681579884 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
 	"Juego.h"
 	<fstream>
 	<unistd.h>
 	<fstream>
 	"Jugador.h"
 
-1681312053 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
+1681579822 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -112,7 +112,7 @@
 	<iomanip>
 	<string>
 
-1681258238 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\jugador.cpp
+1681580913 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\jugador.cpp
 	"Jugador.h"
 	<iostream>
 	<fstream>
