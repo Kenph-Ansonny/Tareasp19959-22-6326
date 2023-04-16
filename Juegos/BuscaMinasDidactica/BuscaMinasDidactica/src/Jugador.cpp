@@ -1,10 +1,11 @@
 #include "Jugador.h"
-#include<iostream>
-#include<fstream>
-#include<stdlib.h>
-#include<cstdlib>
-#include<conio.h>
-#include<iomanip>
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+#include <cstdlib>
+#include <conio.h>
+#include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -245,15 +246,16 @@ void Jugador::menuJugador()  //Creación del constructor MenuJugador
 
 bool Jugador::loginJugador()
 {
-    string usuario, contra;
+    string usuario;
+    string contra;
     int contador=0;
-    bool ingresa=false;
+    bool ingresa = false;
     do{
         system("cls");
         cout<<"--------------------------"<<endl;
-        cout<<"AUTENTICACION DE USUARIOS "<<endl;
+        cout<<"AUTENTICACION DE Jugador "<<endl;
         cout<<"--------------------------"<<endl;
-        cout<<"Codigo de usuario: "<<endl;
+        cout<<"Codigo de Jugador: "<<endl;
         getline(cin, usuario);
         cout<<"contrasena: ";
         char caracter;
@@ -310,7 +312,7 @@ bool Jugador::buscarLoginJugador(string user, string passw)
         file >> id >> nombre >> apodo >> contrasena;
         while(!file.eof())
         {
-            if(user==nombre)
+            if(user == nombre)
             {
                 if (passw == contrasena)
                 {
@@ -319,7 +321,7 @@ bool Jugador::buscarLoginJugador(string user, string passw)
             }
             file >> id >> nombre >> apodo >> contrasena;
         }
-        if(found==0)
+        if(found == 0)
         {
             return false;
         }
