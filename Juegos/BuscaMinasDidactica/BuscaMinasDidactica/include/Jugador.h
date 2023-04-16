@@ -19,6 +19,8 @@ class Jugador       //Clase jugador
         void modificarJugadores();
         void buscarJugador();
         void borrarJugador();
+        bool loginJugador();
+        bool buscarLoginJugador(string user, string passw);
         //string getapodo();
 
 

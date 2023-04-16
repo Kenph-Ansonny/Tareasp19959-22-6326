@@ -62,7 +62,7 @@
 
 1680103073 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
 
-1681253022 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+1681667335 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
 	<iostream>
 	<unistd.h>
 	"Juego.h"
@@ -103,7 +103,7 @@
 	<fstream>
 	"Jugador.h"
 
-1681579822 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
+1681667955 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
 	<iostream>
 	<fstream>
 	<stdlib.h>

@@ -242,3 +242,89 @@ void Jugador::menuJugador()  //Creación del constructor MenuJugador
 		rename("Record.txt","Jugador.txt");
 	}
 }
+
+bool Jugador::loginJugador()
+{
+    string usuario, contra;
+    int contador=0;
+    bool ingresa=false;
+    do{
+        system("cls");
+        cout<<"--------------------------"<<endl;
+        cout<<"AUTENTICACION DE USUARIOS "<<endl;
+        cout<<"--------------------------"<<endl;
+        cout<<"Codigo de usuario: "<<endl;
+        getline(cin, usuario);
+        cout<<"contrasena: ";
+        char caracter;
+        caracter= getch();
+        contra="";
+        while (caracter !=13)
+        {
+            if(caracter !=8)
+            {
+                contra.push_back(caracter);
+                cout<<"*";
+            } else
+            {
+                if (contra.length() > 0)
+                {
+                    cout<<"\b \b";
+                    contra = contra.substr(0, contra,length()-1);
+                }
+            }
+            caracter = getch();
+        }
+
+        if (buscarLoginJugador(usuario, contra)){
+            ingresa=true;
+        } else {
+            cout<<"\nEl usuario y/o contrasena son incorrectos"<<endl;
+            cin.get();
+            contador++;
+        }
+    } while (ingresa==false && contador<3);
+    if (ingresa==false){
+        cout<<"\nLo siento, no puede ingresar al sistema, sus contrasenas son invalidas o agoto intentos"<<endl;
+        cin.get();
+    } else {
+        cout<<"\n=== Bienvenido al Sistema ==="<<endl;
+        cin.get();
+    }
+    return ingresa;
+}
+
+bool Jugador::buscarLoginJugador(string user, string passw)
+{
+    system ("cls");
+    fstream file;
+    int found=0;
+    file.open("Jugador.txt", ios::in);
+    if (!file)
+    {
+        cout<<"\n---------------------------Datos del Jugador buscado----------------------"<<endl;
+        cout<<"\n\t\t\tNo hay informacion...";
+    }
+    else
+    {
+        file >> id >> nombre >> apodo >> contrasena;
+        while(!file.eof())
+        {
+            if(user==nombre)
+            {
+                if (passw == contrasena)
+                {
+                    found++;
+                }
+            }
+            file >> id >> nombre >> apodo >> contrasena;
+        }
+        if(found==0)
+        {
+            return false;
+        }
+        else
+            return true;
+        file.close();
+    }
+}

@@ -21,6 +21,12 @@ int main()
     juego.dibujarPortada("portada2.txt");
     //Para obtener numeros aleatorios
     srand(getpid());
+
+    bool accesoJugador;
+    Jugador jugadorRegistrado;
+    accesoJugador = jugadorRegistrado.loginJugador();
+    if (accesoJugador)
+        {
     int opciones;
     bool repetir = true;
     do
@@ -71,7 +77,9 @@ int main()
                 break;
         }
     } while (repetir);
+    }
     system("cls");      //Limpia la pantalla
     juego.dibujarPortada("creditos.txt");       //Enseña los creditos del programa. Es decir los programadores
     return 0;
 }
+
