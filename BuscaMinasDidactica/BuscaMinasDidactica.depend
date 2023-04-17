@@ -1,0 +1,182 @@
+# depslib dependency file v1.0
+1680274918 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1680274797 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	<fstream>
+
+1680274797 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+
+1679292869 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1679325748 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1679069269 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1679067804 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1679324984 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+
+1679290952 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+
+1679325748 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1679067804 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1679069269 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1679290166 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+
+1679292869 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1680103073 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1680103073 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+
+1681667335 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+	"Jugador.h"
+
+1681258439 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+	"Jugador.h"
+
+1680305299 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1680458067 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1680457851 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+
+1680457951 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1680457851 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1680458249 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1681579884 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Jugador.h"
+
+1681667955 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1681580913 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\juegos\buscaminasdidactica\buscaminasdidactica\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681671535 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+	"Jugador.h"
+
+1681668495 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+	"Jugador.h"
+
+1681668495 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1681668495 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1681671535 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\include\jugador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1681668495 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+
+1681668495 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1681668495 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1681668495 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Jugador.h"
+
+1681672882 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681668495 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\temporal\carpeta1\tareasp19959-22-6326-main\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
