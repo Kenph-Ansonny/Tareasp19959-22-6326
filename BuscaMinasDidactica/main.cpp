@@ -1,3 +1,4 @@
+//Grupo 2
 //Librerias y encabezados
 #include <iostream>
 #include <unistd.h>
@@ -17,13 +18,16 @@ int main()
     const int VIDASTABLERO = 3;
     //Se crean las siguietnes estructuras
     Config configuracionJuego(FILASTABLERO, COLUMNASTABLERO, MINASENTABLERO, MODODESARROLLADOR, VIDASTABLERO);
-    Juego juego(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
+    Juego juego(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero(),configuracionJuego.getvidasTablero());
     juego.dibujarPortada("portada2.txt");
     //Para obtener numeros aleatorios
     srand(getpid());
 
+    //cración de variable booleana accesoJugador
     bool accesoJugador;
+    //Se llama la clase Jugador y se crea jugadorRegistrado
     Jugador jugadorRegistrado;
+    //Llama al login de acceso
     accesoJugador = jugadorRegistrado.loginJugador();
     if (accesoJugador)
         {
@@ -34,12 +38,14 @@ int main()
         //Limpia pantalla
         system("cls");
         //imprime en pantalla
-        cout << "\n\n\t\tBUSCA MINAS -Menu-" << endl;
-        cout << "\t\t-------------------"<< endl;
-        cout << "\t\t1. Configuracion del Juego" << endl;
+        cout << "\n\n\t\t|-----------------------|"<< endl;
+        cout << "\t\t|     BUSCA MINAS       |" << endl;
+        cout << "\t\t|-----------------------|"<< endl;
+        cout << "\n\t\t1. Configuracion del Juego" << endl;
         cout << "\t\t2. Iniciar el Juego" << endl;
         cout << "\t\t3. Ingresar Perfil de Jugador" << endl;
         cout << "\t\t4. Salir del Juego" << endl;
+         cout << "\n\t\t-----------------------------"<< endl;
         cout << "\n\t\tIngrese una opcion: ";
         cin >> opciones;
         //Un switch para crear el meno tipo do while
@@ -55,7 +61,7 @@ int main()
         case 2:
             {
                 //Se ejecuta juegoTemporal de la clase Juego y se envian los siguientes parametros:
-              	Juego juegoTemporal(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
+              	Juego juegoTemporal(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero(),configuracionJuego.getvidasTablero());
                 //se ejeguta juegoTemporal
                 juegoTemporal.iniciar();
 

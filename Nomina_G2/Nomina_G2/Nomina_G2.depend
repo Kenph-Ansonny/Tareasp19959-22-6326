@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1681682447 source:c:\users\jhony\desktop\planilla\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681683150 c:\users\jhony\desktop\planilla\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681683233 source:c:\users\jhony\desktop\planilla\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681685172 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\tareasp199592211003-main\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681685199 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\tareasp199592211003-main\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681685222 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\tareasp199592211003-main\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681685784 source:c:\users\jhony\desktop\nueva carpeta (2)\tareasp19959-22-6326-main\nomina de plantillas\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681685784 c:\users\jhony\desktop\nueva carpeta (2)\tareasp19959-22-6326-main\nomina de plantillas\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681685784 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\tareas\tareasp199592211003\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681685784 c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\tareas\tareasp199592211003\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681693272 source:c:\users\jhony\documents\universidad\tercer semestre\programación\proyectos\tareas\tareasp199592211003\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<string>
+	<conio.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+
+1681694038 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681696677 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<string>
+	<conio.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+
+1681694038 source:c:\users\mafer\downloads\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681694038 c:\users\mafer\downloads\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681696890 source:c:\users\mafer\downloads\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<string>
+	<conio.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+
+1681694038 source:c:\users\mafer\onedrive - universidad mariano gálvez\escritorio\universidad\tercerciclo\progra1\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681694038 c:\users\mafer\onedrive - universidad mariano gálvez\escritorio\universidad\tercerciclo\progra1\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681771809 source:c:\users\mafer\onedrive - universidad mariano gálvez\escritorio\universidad\tercerciclo\progra1\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<string>
+	<conio.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+
+1681694038 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\nomina_g2\nomina_g2\main.cpp
+	<iostream>
+	"Menus.h"
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\nomina_g2\nomina_g2\include\menus.h
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1681771809 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\nomina_g2\nomina_g2\src\menus.cpp
+	"Menus.h"
+	<string>
+	<conio.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+

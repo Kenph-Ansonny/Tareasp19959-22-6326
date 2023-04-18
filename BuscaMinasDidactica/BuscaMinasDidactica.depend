@@ -180,3 +180,65 @@
 	<sstream>
 	<iostream>
 
+1681694038 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\include\celda.h
+
+1681694038 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\include\config.h
+
+1681753033 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	"Config.h"
+	<fstream>
+	<unistd.h>
+	<fstream>
+	"Jugador.h"
+	<iostream>
+
+1681752942 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+	"Jugador.h"
+	"Config.h"
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1681694038 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\include\jugador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1681754874 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\src\jugador.cpp
+	"Jugador.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681694038 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1681768681 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\tareasp199592211003-main\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+	"Jugador.h"
+

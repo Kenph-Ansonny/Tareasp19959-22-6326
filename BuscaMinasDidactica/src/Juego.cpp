@@ -1,8 +1,10 @@
 #include "Juego.h"
+#include "Config.h"
 #include <fstream>
 #include <unistd.h>
-#include<fstream>
+#include <fstream>
 #include "Jugador.h"
+#include <iostream>
 
 int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleatoria los numeros que se muestran en tablero
 	{
@@ -19,11 +21,12 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 		return this->aleatorio_en_rango(0, this->tablero.getAnchoTablero() - 1);
 	}
 
-	Juego::Juego(Tablero tablero, int cantidadMinas)//constructor del juego que traslada el tablero, cantidad de minas y que las coloca al azar
+	Juego::Juego(Tablero tablero, int cantidadMinas, int vidas)//constructor del juego que traslada el tablero, cantidad de minas y que las coloca al azar
 	{
 		this->tablero = tablero;
 		this->cantidadMinas = cantidadMinas;
 		this->colocarMinasAleatoriamente();
+		this->vidas =vidas;
 	}
 
 	void Juego::colocarMinasAleatoriamente() // instera las minas de forma aleatoria en el tablero
@@ -55,7 +58,7 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 	{
         Jugador jugador;
 		int columna = 0;
-		cout << "Ingresa la COLUMNA en la que desea jugar "  <<" :";
+		cout <<"Ingresa la COLUMNA en la que desea jugar ";
 		cin >> columna;
 		return columna - 1;
 
@@ -83,14 +86,18 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 			fila = this->solicitarFilaUsuario();
 			columna = this->solicitarColumnaUsuario();
 			bool respuestaAUsuario = this->tablero.descubrirMina(columna, fila);
-			if (!respuestaAUsuario) // se crea un if para indicarle al jugador si gano o perdio
-			{
-				cout << "Perdiste el Juego\n"; // si el valor es verdadero que encontro una mina le indica que perdio
-				this->tablero.setModoDesarrollador(true);
-				this->tablero.imprimir();
-				break;
-			}
 
+			if (!respuestaAUsuario){
+                vidas--; //esta función nos permitira restar el total de las vidas con las vidas perdidas.
+                cout<<"Su vidas restantes son: "<<vidas<<endl; // aquí imprimiremos las vidas restantes
+            }
+            if (vidas == 0)// esta función nos permitira saber cuando el jugador se queda sin vidas
+            {
+                cout<<"Perdiste el juego\n";
+				this->tablero.setModoDesarrollador(true);
+                this->tablero.imprimir();
+				break;
+            }
 			if (this->jugadorGana()) // si es falso le indica que gano
 			{
 				cout << "Ganaste el Juego\n";
@@ -100,6 +107,7 @@ int Juego::aleatorio_en_rango(int minimo, int maximo) // realizar de forma aleat
 			}
 		}
 	}
+
 	void Juego::dibujarPortada(string nombreArchivo)// crea la portada del juego
 	{
         string line;

@@ -177,7 +177,7 @@ void Jugador::menuJugador()  //Creación del constructor MenuJugador
 	{
 		string jugador_id;
 		cout<<"\n-------------------------Datos del Jugador buscado------------------------"<<endl;
-		cout<<"\nIngrese Id de la Persona que quiere buscar: ";
+		cout<<"\nIngrese Id del Jugador que quiere buscar: ";
 		cin>>jugador_id;
 		file >> id >> nombre >> apodo >> contrasena;
 		while(!file.eof())
@@ -243,7 +243,7 @@ void Jugador::menuJugador()  //Creación del constructor MenuJugador
 	}
 }
 
-bool Jugador::loginJugador()
+bool Jugador::loginJugador() //Login de Inicio de sesión para jugadores Registrados
 {
     string usuario, contra;
     int contador=0;
@@ -253,7 +253,7 @@ bool Jugador::loginJugador()
         cout<<"--------------------------"<<endl;
         cout<<"AUTENTICACION DE USUARIOS "<<endl;
         cout<<"--------------------------"<<endl;
-        cout<<"Codigo de usuario: ";
+        cout<<"Nombre de usuario: ";
         getline(cin, usuario);
         cout<<"\ncontrasena: ";
         char caracter;
@@ -276,7 +276,7 @@ bool Jugador::loginJugador()
             caracter = getch();
         }
 
-        if (buscarLoginJugador(usuario, contra)){
+        if (buscarLoginJugador(usuario, contra)){   //Pide los parametro de la funcion BuscarLoginJugador para iniciar sesión
             ingresa=true;
         } else {
             cout<<"\nEl usuario y/o contrasena son incorrectos"<<endl;
@@ -288,13 +288,13 @@ bool Jugador::loginJugador()
         cout<<"\nLo siento, no puede ingresar al sistema, sus contrasenas son invalidas o agoto intentos"<<endl;
         cin.get();
     } else {
-        cout<<"\n=== Bienvenido al Sistema ==="<<endl;
+        cout<<"\n=== Bienvenido a Buscaminas el Dragon ==="<<endl;
         cin.get();
     }
     return ingresa;
 }
 
-bool Jugador::buscarLoginJugador(string user, string passw)
+bool Jugador::buscarLoginJugador(string user, string passw) //Funcion que busca al jugador dentro de los archivos secuenciales. Enviale los parametro a LoginJugador
 {
     system ("cls");
     fstream file;
