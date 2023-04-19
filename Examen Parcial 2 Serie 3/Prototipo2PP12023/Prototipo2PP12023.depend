@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1681923041 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\prototipo2pp12023\main.cpp
+	<iostream>
+	<conio.h>
+	"persona.h"
+	"MenuPrincipal.h"
+
+1681921582 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\prototipo2pp12023\include\persona.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681922974 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\prototipo2pp12023\src\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Persona.h"
+	<cstdlib>
+
+1681922948 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\prototipo2pp12023\include\menuprincipal.h
+	<iostream>
+	<cstdlib>
+
+1681922843 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\torre de hanoi\prototipo2pp12023\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\prototipo2pp12023\main.cpp
+	<iostream>
+	<conio.h>
+	"persona.h"
+	"MenuPrincipal.h"
+
+1681923726 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\prototipo2pp12023\include\persona.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681925667 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\prototipo2pp12023\include\menuprincipal.h
+	<iostream>
+	<cstdlib>
+
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\prototipo2pp12023\src\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Persona.h"
+	<cstdlib>
+
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\downloads\prototipo2pp12023\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
