@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1683567616 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\main.cpp
+	<iostream>
+	<conio.h>
+	"Menus.h"
+
+1683567607 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\include\menus.h
+	<iostream>
+

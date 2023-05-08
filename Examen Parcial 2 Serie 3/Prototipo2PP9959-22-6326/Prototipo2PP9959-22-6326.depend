@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\examen parcial 2 serie 3\prototipo2pp9959-22-6326\main.cpp
+	<iostream>
+	<conio.h>
+	"persona.h"
+	"MenuPrincipal.h"
+
+1681923726 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\examen parcial 2 serie 3\prototipo2pp9959-22-6326\include\persona.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1681925667 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\examen parcial 2 serie 3\prototipo2pp9959-22-6326\include\menuprincipal.h
+	<iostream>
+	<cstdlib>
+
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\examen parcial 2 serie 3\prototipo2pp9959-22-6326\src\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Persona.h"
+	<cstdlib>
+
+1681925667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\examen parcial 2 serie 3\prototipo2pp9959-22-6326\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
