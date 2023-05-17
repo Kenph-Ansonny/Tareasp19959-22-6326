@@ -2,7 +2,7 @@
 1684280964 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
 	"Menus.h"
 
-1684279751 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
+1684283405 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -10,6 +10,7 @@
 	<conio.h>
 	<iomanip>
 	"EmpleadosPlanilla.h"
+	"Bitacora.h"
 
 1684280856 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\main.cpp
 	<iostream>
@@ -27,15 +28,16 @@
 	<conio.h>
 	<iomanip>
 
-1684274723 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\usuarioplanilla.h
+1684283405 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\usuarioplanilla.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 	<cstdlib>
 	<conio.h>
 	<iomanip>
+	"Bitacora.h"
 
-1684280445 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\empleadosplanilla.h
+1684283405 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\empleadosplanilla.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -43,7 +45,20 @@
 	<conio.h>
 	<iomanip>
 	"Menus.h"
+	"Bitacora.h"
 
-1684280964 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\empleadosplanilla.cpp
+1684281197 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\empleadosplanilla.cpp
 	"EmpleadosPlanilla.h"
+
+1684284225 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\bitacora.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<chrono>
+
+1684284368 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
+	"Bitacora.h"
 

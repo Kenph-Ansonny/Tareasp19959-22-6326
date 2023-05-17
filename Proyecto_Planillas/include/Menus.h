@@ -7,6 +7,7 @@
 #include<conio.h>
 #include<iomanip>
 #include "EmpleadosPlanilla.h"
+#include "Bitacora.h"
 
 using namespace std;
 class Menus
