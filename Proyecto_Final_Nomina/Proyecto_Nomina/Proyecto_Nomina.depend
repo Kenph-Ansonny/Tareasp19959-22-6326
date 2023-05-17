@@ -1,9 +1,31 @@
 # depslib dependency file v1.0
-1683567616 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\main.cpp
+1683568296 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\main.cpp
 	<iostream>
 	<conio.h>
 	"Menus.h"
 
-1683567607 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\include\menus.h
+1683570505 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\include\menus.h
 	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Usuario.h"
+
+1683568296 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\src\menus.cpp
+	"Menus.h"
+
+1683569757 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\src\usuario.cpp
+	"Usuario.h"
+
+1683570622 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_final_nomina\proyecto_nomina\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Menus.h"
 

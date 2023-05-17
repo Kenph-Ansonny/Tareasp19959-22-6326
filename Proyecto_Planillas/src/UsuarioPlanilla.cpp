@@ -1,26 +1,32 @@
-#include "Usuario.h"
+#include "UsuarioPlanilla.h"
+#include<iostream>
+#include<fstream>
+#include<stdlib.h>
+#include<cstdlib>
+#include<conio.h>
+#include<iomanip>
+
 using namespace std;
 
-void usuario::registroUsuario()
+
+void UsuarioPlanilla::usuarioRegister()
 {
-	system("cls");
+    system("cls");
 	fstream file;
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n------------------------------------------------- Registro de Usuarios ---------------------------------------------"<<endl;
-	cout<<"\t\t\tIngresa una ID de Usuario     : ";
-	cin>>idUsuario;
 	cout<<"\t\t\tIngresa tu Nombre de Usuario  : ";
 	cin>> nombreUsuario;
-	cout<<"\t\t\tIngresa tu Contrasena         : ";
+	cout<<"\n\t\t\tIngresa tu Contrasena       : ";
 	cin>> contraUsuario;
-	file.open("Usuario.txt", ios::app | ios::out);
-	file <<std::left<<std::setw(15)<< idUsuario <<std::left<<std::setw(15)<< nombreUsuario <<std::left<<std::setw(15)<< contraUsuario << "\n";
+	file.open("UsuarioPlanilla.txt", ios::app | ios::out);
+	file <<std::left<<std::setw(15)<< nombreUsuario <<std::left<<std::setw(15)<< contraUsuario << "\n";
 	file.close();
 }
 
-bool usuario::loginUsuario() //Login de Usuario
+bool UsuarioPlanilla::usuarioLogin()
 {
-    string user, contra;
+    string usuario, contra;
     int contador=0;
     bool ingresa=false;
     do{
@@ -29,7 +35,7 @@ bool usuario::loginUsuario() //Login de Usuario
         cout<<"AUTENTICACION DE USUARIOS "<<endl;
         cout<<"--------------------------"<<endl;
         cout<<"Nombre de usuario: ";
-        getline(cin, user);
+        getline(cin,usuario);
         cout<<"\ncontrasena: ";
         char caracter;
         caracter= getch();
@@ -51,7 +57,7 @@ bool usuario::loginUsuario() //Login de Usuario
             caracter = getch();
         }
 
-        if (buscarLoginUsuario(user, contra)){   //Pide los parametro de la funcion BuscarLoginJugador para iniciar sesión
+        if (buscarLoginUsuario(usuario, contra)){   //Pide los parametro de la funcion BuscarLoginJugador para iniciar sesión
             ingresa=true;
         } else {
             cout<<"\nEl usuario y/o contrasena son incorrectos"<<endl;
@@ -69,12 +75,12 @@ bool usuario::loginUsuario() //Login de Usuario
     return ingresa;
 }
 
-bool Usuario::buscarLoginUsuario(string loginUser, string passw) //Funcion que busca al jugador dentro de los archivos secuenciales. Enviale los parametro a LoginJugador
+bool UsuarioPlanilla::buscarLoginUsuario(string user, string passw)
 {
     system ("cls");
     fstream file;
     int found=0;
-    file.open("Usuario.txt", ios::in);
+    file.open("UsuarioPlanilla.txt", ios::in);
     if (!file)
     {
         cout<<"\n---------------------------Datos del Usuario buscado----------------------"<<endl;
@@ -82,17 +88,17 @@ bool Usuario::buscarLoginUsuario(string loginUser, string passw) //Funcion que b
     }
     else
     {
-        file >> idUsuario >> nombreUsuario >> contraUsuario;
+        file >> nombreUsuario >> contraUsuario;
         while(!file.eof())
         {
-            if(loginUser==nombreUsuario)
+            if(user==nombreUsuario)
             {
                 if (passw == contraUsuario)
                 {
                     found++;
                 }
             }
-            file >> idUsuario >> nombreUsuario >> contraUsuario;
+            file >> nombreUsuario >> contraUsuario;
         }
         if(found==0)
         {

@@ -1,7 +1,14 @@
-#include <iostream>
-#include <conio.h>
+#include<iostream>
+#include<fstream>
+#include<stdlib.h>
+#include<cstdlib>
+#include<conio.h>
+#include<iomanip>
+
+#include "Usuario.h"
 #include "Menus.h"
-using namespace std;
+#include "Usuario.h"
+
 
 int main()
 {

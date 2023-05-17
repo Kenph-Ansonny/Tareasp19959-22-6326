@@ -8,21 +8,19 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
+#include<string>
 
-using namespace std;
+#include "Menus.h"
 
-class Usuario   //Clase Usuario para Login
+class Usuario  //Clase Usuario para Login
 {
-	private:
-    string nombreUsuario, contraUsuario;
+    private:
+    string idUsuario, nombreUsuario, contraUsuario;
+
 	public:
-		void menu();
-		void insertar();
-		void desplegar();
-		void modificar();
-		void buscar();
-		void borrar();
-		bool loginPersona();
-        bool buscarLoginPersona(string user, string passw);
+		void registroUsuario();
+		bool loginUsuario();
+        bool buscarLoginUsuario(string loginUser, string passw);
 };
+
 #endif // USUARIO_H

@@ -266,6 +266,7 @@ bool persona::loginPersona() //Login de Inicio de sesión para jugadores Registra
         cout<<"AUTENTICACION DE USUARIOS "<<endl;
         cout<<"--------------------------"<<endl;
         cout<<"Nombre de usuario: ";
+        getline
         getline(cin, usuario);
         cout<<"\ncontrasena: ";
         char caracter;

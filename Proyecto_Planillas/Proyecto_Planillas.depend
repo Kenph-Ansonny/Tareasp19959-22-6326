@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1684280964 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
+	"Menus.h"
+
+1684279751 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"EmpleadosPlanilla.h"
+
+1684280856 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	"Menus.h"
+	"UsuarioPlanilla.h"
+
+1684275131 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\usuarioplanilla.cpp
+	"UsuarioPlanilla.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1684274723 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\usuarioplanilla.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1684280445 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\empleadosplanilla.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+
+1684280964 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\empleadosplanilla.cpp
+	"EmpleadosPlanilla.h"
+
