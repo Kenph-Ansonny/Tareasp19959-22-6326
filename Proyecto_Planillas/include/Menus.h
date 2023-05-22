@@ -8,6 +8,7 @@
 #include<iomanip>
 #include "EmpleadosPlanilla.h"
 #include "Departamento.h"
+#include "Puestos.h"
 #include "Bitacora.h"
 
 using namespace std;

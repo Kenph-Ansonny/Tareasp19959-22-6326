@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1684725548 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
+1684767167 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
 	"Menus.h"
 
-1684725179 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
+1684767197 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -11,6 +11,7 @@
 	<iomanip>
 	"EmpleadosPlanilla.h"
 	"Departamento.h"
+	"Puestos.h"
 	"Bitacora.h"
 
 1684280856 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\main.cpp
@@ -60,7 +61,7 @@
 	<iomanip>
 	<chrono>
 
-1684284368 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
+1684730556 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
 	"Bitacora.h"
 
 1684725302 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\departamento.h
@@ -74,4 +75,14 @@
 
 1684725302 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\departamento.cpp
 	"Departamento.h"
+
+1684767099 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\puestos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+	"Bitacora.h"
 

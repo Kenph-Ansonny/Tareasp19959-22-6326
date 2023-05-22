@@ -83,6 +83,8 @@ void Menus::menuCatalogos()
 
     case 2:{
         system("cls");
+        Puestos menu;
+        menu.menuPuestos();
     break;
     }
     case 3:{
