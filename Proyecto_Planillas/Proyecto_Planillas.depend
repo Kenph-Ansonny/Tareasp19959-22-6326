@@ -61,7 +61,7 @@
 	<iomanip>
 	<chrono>
 
-1684730556 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
+1684768811 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
 	"Bitacora.h"
 
 1684725302 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\departamento.h
@@ -85,4 +85,7 @@
 	<iomanip>
 	"Menus.h"
 	"Bitacora.h"
+
+1684768667 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\puestos.cpp
+	"Puestos.h"
 

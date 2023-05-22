@@ -140,7 +140,7 @@ void Puestos::modificarPuestos()
 	}
 	else
 	{
-		cout<<"\n Ingrese Id del Empleado que quiere modificar: ";
+		cout<<"\n Ingrese Id del Puesto que quiere modificar: ";
 		cin>>participant_id;
 		file1.open("Record.txt",ios::app | ios::out);
 		file >> idPuesto >> nombrePuesto >> encargadoPuesto >> tituloPuesto >> salarioPuesto;
