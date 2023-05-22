@@ -35,11 +35,13 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Bitacora.h" />
+		<Unit filename="include/Departamento.h" />
 		<Unit filename="include/EmpleadosPlanilla.h" />
 		<Unit filename="include/Menus.h" />
 		<Unit filename="include/UsuarioPlanilla.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Bitacora.cpp" />
+		<Unit filename="src/Departamento.cpp" />
 		<Unit filename="src/EmpleadosPlanilla.cpp" />
 		<Unit filename="src/Menus.cpp" />
 		<Unit filename="src/UsuarioPlanilla.cpp" />

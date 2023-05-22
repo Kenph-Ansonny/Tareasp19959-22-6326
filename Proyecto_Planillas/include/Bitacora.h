@@ -12,14 +12,14 @@ using namespace std;
 class Bitacora
 {
     public:
-        string ingresoDatosBitacora(string nomUsuario, string accionRealizada);
-        void imprimirdatosBitacora();
+        string ingresoDatosBitacora(string nombreUsuario, string numeAccion, string accionRealizada);
+        void imprimirDatosBitacora();
 
 
     protected:
 
     private:
-        string nombreUsuario, numAccionRealizada, fechaAccion, horaAccion;
+        string nombreUsuario, numeAccion, accionRealizada , fechaHoraAccion;
 };
 
 #endif // BITACORA_H

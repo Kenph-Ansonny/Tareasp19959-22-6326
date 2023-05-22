@@ -87,11 +87,13 @@ void Menus::menuCatalogos()
     }
     case 3:{
         system("cls");
+        Departamento menu;
+        menu.DepartamentosPlanilla();
         break;
         }
     case 4:{
         system("cls");
-        repetir == false;
+        exit (0);
         break;
     }
     default:
