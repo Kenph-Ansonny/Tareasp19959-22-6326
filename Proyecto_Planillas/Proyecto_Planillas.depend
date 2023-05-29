@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1684767167 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
+1685321132 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\menus.cpp
 	"Menus.h"
 
-1684767197 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
+1685321091 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\menus.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -13,15 +13,16 @@
 	"Departamento.h"
 	"Puestos.h"
 	"Bitacora.h"
+	"UsuarioPlanilla.h"
 
-1684280856 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\main.cpp
+1685320865 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\main.cpp
 	<iostream>
 	<cstdlib>
 	<conio.h>
 	"Menus.h"
 	"UsuarioPlanilla.h"
 
-1684275131 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\usuarioplanilla.cpp
+1685320849 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\usuarioplanilla.cpp
 	"UsuarioPlanilla.h"
 	<iostream>
 	<fstream>
@@ -30,7 +31,7 @@
 	<conio.h>
 	<iomanip>
 
-1684283405 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\usuarioplanilla.h
+1685320971 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\usuarioplanilla.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -38,6 +39,7 @@
 	<conio.h>
 	<iomanip>
 	"Bitacora.h"
+	"Menus.h"
 
 1684283405 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\empleadosplanilla.h
 	<iostream>
@@ -52,16 +54,16 @@
 1684281197 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\empleadosplanilla.cpp
 	"EmpleadosPlanilla.h"
 
-1684727210 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\bitacora.h
+1685317760 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\bitacora.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 	<cstdlib>
 	<conio.h>
 	<iomanip>
-	<chrono>
+	<ctime>
 
-1684768811 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
+1685317760 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\src\bitacora.cpp
 	"Bitacora.h"
 
 1684725302 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planillas\include\departamento.h

@@ -7,7 +7,8 @@
 #include<iomanip>
 
 using namespace std;
-
+Bitacora registroBitacora;
+Menus menuNombreusuario;
 
 void UsuarioPlanilla::usuarioRegister()
 {
@@ -57,9 +58,10 @@ bool UsuarioPlanilla::usuarioLogin()
             caracter = getch();
         }
 
-        if (buscarLoginUsuario(usuario, contra)){   //Pide los parametro de la funcion BuscarLoginJugador para iniciar sesión
+        if (buscarLoginUsuario(usuario, contra)){
             ingresa=true;
         } else {
+            registroBitacora.ingresoDatosBitacora(usuario,"7000","NLOG");
             cout<<"\nEl usuario y/o contrasena son incorrectos"<<endl;
             cin.get();
             contador++;
@@ -70,6 +72,7 @@ bool UsuarioPlanilla::usuarioLogin()
         cin.get();
     } else {
         cout<<"\n=== Bienvenidos al Sistema ==="<<endl;
+        cout << "n=== " << usuario << " ===" << endl;
         cin.get();
     }
     return ingresa;
@@ -108,4 +111,9 @@ bool UsuarioPlanilla::buscarLoginUsuario(string user, string passw)
             return true;
 
         file.close();}
+}
+
+string UsuarioPlanilla::getnombreUsuario()
+{
+    return nombreUsuario;
 }

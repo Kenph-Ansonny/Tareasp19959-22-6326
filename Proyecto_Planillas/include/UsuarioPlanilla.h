@@ -7,6 +7,7 @@
 #include<conio.h>
 #include<iomanip>
 #include "Bitacora.h"
+#include "Menus.h"
 
 
 using namespace std;
@@ -17,6 +18,7 @@ class UsuarioPlanilla
         void usuarioRegister();
         bool usuarioLogin();
         bool buscarLoginUsuario(string user, string passw);
+        string getnombreUsuario();
 
     protected:
 

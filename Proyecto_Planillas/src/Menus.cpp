@@ -1,12 +1,14 @@
 #include "Menus.h"
+UsuarioPlanilla registrarNombre;
 
-void Menus::menuInicial()
+string Menus::menuInicial(string nombreUsuario)
 {
     system("cls");
     int optEscoger;
   bool repetir = true;
     do
     {
+    cout << "Usuario: " << registrarNombre.getnombreUsuario() << endl;
     cout << "\t\t\t-------------------------------------------------\n";
     cout << "\t\t\t| Bienvenido al Sistema de Nominas de Empleados |";
     cout << "\n\t\t\t-----------------------------------------------"<<endl;
@@ -40,14 +42,14 @@ void Menus::menuInicial()
         break;
         }
     case 4:{
-             repetir == false;
+             exit(0);
         break;
     }
     default:
         cout << "Opcion invalida... Intente otra vez...";
 
     }
-    }while(repetir);
+    }while(optEscoger!=4);
 }
 
 void Menus::menuCatalogos()

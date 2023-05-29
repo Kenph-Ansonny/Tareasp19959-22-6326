@@ -6,7 +6,7 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
-#include <chrono>
+#include <ctime>
 using namespace std;
 
 class Bitacora
@@ -19,7 +19,8 @@ class Bitacora
     protected:
 
     private:
-        string nombreUsuario, numeAccion, accionRealizada , fechaHoraAccion;
+        string nombreUsuario, numeAccion, accionRealizada;
+        char* fechaHoraAccion;
 };
 
 #endif // BITACORA_H

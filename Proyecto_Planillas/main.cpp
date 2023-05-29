@@ -3,11 +3,12 @@
 #include <conio.h>
 #include "Menus.h"
 #include "UsuarioPlanilla.h"
-
+UsuarioPlanilla traerNombre;
 using namespace std;
 
 int main()
 {
+    string nombre = traerNombre.getnombreUsuario();
     system("cls");
     int optEscoger;
     bool repetir = true;
@@ -42,7 +43,7 @@ int main()
     do
     {
 	Menus systemMenu;
-    systemMenu.menuInicial();
+    systemMenu.menuInicial(nombre);
     }while (repetir);}
         break;
     }

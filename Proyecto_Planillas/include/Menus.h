@@ -10,12 +10,13 @@
 #include "Departamento.h"
 #include "Puestos.h"
 #include "Bitacora.h"
+#include "UsuarioPlanilla.h"
 
 using namespace std;
 class Menus
 {
     public:
-        void menuInicial();
+        string menuInicial(string nombreUsuario);
         void menuCatalogos();
         void subMenuEmpleados();
         void DepartamentosPlanilla();
