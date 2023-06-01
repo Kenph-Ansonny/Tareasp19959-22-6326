@@ -72,8 +72,9 @@ bool UsuarioPlanilla::usuarioLogin()
         cin.get();
     } else {
         cout<<"\n=== Bienvenidos al Sistema ==="<<endl;
-        cout << "n=== " << usuario << " ===" << endl;
+        cout << "\n==== " << usuario << " ====" << endl;
         cin.get();
+
     }
     return ingresa;
 }

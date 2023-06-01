@@ -16,10 +16,11 @@ using namespace std;
 class Menus
 {
     public:
-        string menuInicial(string nombreUsuario);
+        void menuInicial();
         void menuCatalogos();
         void subMenuEmpleados();
         void DepartamentosPlanilla();
+        void subMenuInformes();
 
     protected:
 

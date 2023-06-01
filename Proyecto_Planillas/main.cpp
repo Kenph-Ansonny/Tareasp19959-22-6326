@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    string nombre = traerNombre.getnombreUsuario();
+    string userName = traerNombre.getnombreUsuario();
     system("cls");
     int optEscoger;
     bool repetir = true;
@@ -43,7 +43,7 @@ int main()
     do
     {
 	Menus systemMenu;
-    systemMenu.menuInicial(nombre);
+    systemMenu.menuInicial();
     }while (repetir);}
         break;
     }

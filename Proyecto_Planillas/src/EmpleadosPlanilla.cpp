@@ -1,4 +1,6 @@
 #include "EmpleadosPlanilla.h"
+   UsuarioPlanilla traerNombreUsuario;
+   Bitacora llamarBitacora;
 
 void EmpleadosPlanilla::menuEmpleadosPlanilla()
 {
@@ -69,8 +71,7 @@ void EmpleadosPlanilla::insertarEmpleado()
 {
     string accion = "7001";
 	fstream file;
-	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
-	cout<<"\n-------------------------------------------------Alta (Ingreso) de Empleados -------------------------------------------"<<endl;
+	cout<<"\n-------------------------------------------------Ingreso de Empleados -------------------------------------------"<<endl;
 	cout<<"\t\t\tIngresa Id del Empleado           : ";
 	cin>>idEmpleado;
 	cout<<"\t\t\tIngresa Nombre del Empleado       : ";
@@ -86,6 +87,7 @@ void EmpleadosPlanilla::insertarEmpleado()
 	file.open("EmpleadoPlanilla.txt", ios::app | ios::out);
 	file <<std::left<<std::setw(15)<< idEmpleado <<std::left<<std::setw(15)<< nombreEmpleado <<std::left<<std::setw(15)<< apellidoEmpleado <<std::left<<std::setw(15)<< dpiEmpleado <<std::left<<std::setw(15)<< direccionEmpleado <<std::left<<std::setw(15)<< telefonoEmpleado << "\n";
 	file.close();
+	llamarBitacora.ingresoDatosBitacora(traerNombreUsuario.getnombreUsuario(),"7010","INS");
 }
 
 void EmpleadosPlanilla::buscarEmpleado()
@@ -126,6 +128,7 @@ void EmpleadosPlanilla::buscarEmpleado()
 		}
 		file.close();
 	}
+	llamarBitacora.ingresoDatosBitacora(traerNombreUsuario.getnombreUsuario(),"7020","SRC");
 }
 
 void EmpleadosPlanilla::modificarEmpleado()
@@ -178,6 +181,7 @@ void EmpleadosPlanilla::modificarEmpleado()
 		remove("EmpleadoPlanilla.txt");
 		rename("Record.txt","EmpleadoPlanilla.txt");
 	}
+	llamarBitacora.ingresoDatosBitacora(traerNombreUsuario.getnombreUsuario(),"7030","MOD");
 }
 
 void EmpleadosPlanilla::borrarEmpleado()
@@ -221,11 +225,13 @@ void EmpleadosPlanilla::borrarEmpleado()
 		remove("EmpleadoPlanilla.txt");
 		rename("Record.txt","EmpleadoPlanilla.txt");
 	}
+	llamarBitacora.ingresoDatosBitacora(traerNombreUsuario.getnombreUsuario(),"7010","DEL");
 }
 
 void EmpleadosPlanilla::imprimirEmpleados()
 {
-   string accion = "7005";
+
+
    fstream file;
 	int total=0;
 	cout<<"\n-------------------------Imprimir Informe de Empleados -------------------------"<<endl;
@@ -255,4 +261,5 @@ void EmpleadosPlanilla::imprimirEmpleados()
 		}
 	}
 	file.close();
+	llamarBitacora.ingresoDatosBitacora(traerNombreUsuario.getnombreUsuario(),"7050","IMP");
 }

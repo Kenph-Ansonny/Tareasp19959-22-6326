@@ -1,14 +1,14 @@
 #include "Menus.h"
 UsuarioPlanilla registrarNombre;
 
-string Menus::menuInicial(string nombreUsuario)
+void Menus::menuInicial()
 {
     system("cls");
     int optEscoger;
   bool repetir = true;
     do
     {
-    cout << "Usuario: " << registrarNombre.getnombreUsuario() << endl;
+    cout << "Usuario: " << endl;
     cout << "\t\t\t-------------------------------------------------\n";
     cout << "\t\t\t| Bienvenido al Sistema de Nominas de Empleados |";
     cout << "\n\t\t\t-----------------------------------------------"<<endl;
@@ -39,6 +39,7 @@ string Menus::menuInicial(string nombreUsuario)
     }
     case 3:{
         system("cls");
+        subMenuInformes();
         break;
         }
     case 4:{
@@ -59,6 +60,7 @@ void Menus::menuCatalogos()
   bool repetir = true;
     do
     {
+        cout << "Usuario: " << endl;
     cout << "\t\t\t-----------------------------------\n";
     cout << "\t\t\t| Bienvenido al Menu de Catalogos |";
     cout << "\n\t\t\t---------------------------------"<<endl;
@@ -97,9 +99,55 @@ void Menus::menuCatalogos()
         }
     case 4:{
         system("cls");
-        exit (0);
+        repetir = false;
         break;
     }
+    default:
+        cout << "Opcion invalida... Intente otra vez...";
+
+    }
+    }while(repetir);
+}
+
+void Menus::subMenuInformes()
+{
+    system("cls");
+    int optEscoger;
+  bool repetir = true;
+    do
+    {
+    cout << "\t\t\t-----------------------------------\n";
+    cout << "\t\t\t| Bienvenido al Menu de Informes |";
+    cout << "\n\t\t\t---------------------------------"<<endl;
+
+    cout << "\t\t\t1. Bitacora"<<endl;
+    cout << "\t\t\t2. Usuarios"<<endl;
+    cout << "\t\t\t3. Regresar" << endl;
+    cout << "\n\n\t\t\t------------------------------------";
+    cout << "\n\t\t\t| Opciones a escoger: [1] - [2] - [3]";
+    cout << "\n\t\t\t--------------------------------------";
+
+    cout << "\n\n\t\t\tIngrese la opcion que desea escoger: ";
+    cin >> optEscoger;
+
+    switch(optEscoger)
+    {
+    case 1:{
+       system("cls");
+       Bitacora imprimirMenu;
+       imprimirMenu.imprimirDatosBitacora();
+    break;
+    }
+
+    case 2:{
+        system("cls");
+    break;
+    }
+    case 3:{
+        system("cls");
+        repetir = false;
+        break;
+        }
     default:
         cout << "Opcion invalida... Intente otra vez...";
 
