@@ -16,7 +16,7 @@ int main()
     {
     system("cls");
     cout<<"\t\t\t------------------------------------------"<<endl;
-	cout<<"\t\t\t|        ! Bienvenido al Sistema !       |"<<endl;
+	cout<<"\t\t\t|        ¡ Bienvenido al Sistema !       |"<<endl;
 	cout<<"\t\t\t------------------------------------------"<<endl;
 	cout<<"\n\t\t\t 1. Iniciar sesion "<<endl;
 	cout<<"\t\t\t 2. Registrar nuevo Usuario"<<endl;
