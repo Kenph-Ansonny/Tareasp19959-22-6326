@@ -285,3 +285,25 @@ void UsuarioPlanilla::borrarUsuario()
 		exit(0);
 	}
 }
+
+void UsuarioPlanilla::dibujarPortada(string nombreArchivo)
+	{
+        string line;
+        //char userInput = ' ';
+        ifstream myFile(nombreArchivo);
+        if(myFile.is_open())
+        {
+            //Se obtiene la portada del juego
+            while( getline(myFile, line))
+            {
+                cout << line << endl;
+            }
+            myFile.close();
+            system("pause");
+        }
+        else
+        {
+            cout << "Error FATAL: el archivo de portada no pudo ser cargado" << endl;
+            system("pause");
+        }
+}

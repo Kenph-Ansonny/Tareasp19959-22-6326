@@ -93,7 +93,7 @@
 1685745267 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla\src\bitacora.cpp
 	"Bitacora.h"
 
-1685741851 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\main.cpp
+1685757994 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\main.cpp
 	<iostream>
 	<cstdlib>
 	<fstream>
@@ -103,7 +103,7 @@
 	<iomanip>
 	"UsuarioPlanilla.h"
 
-1685746815 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\usuarioplanilla.h
+1685757988 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\usuarioplanilla.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -168,7 +168,7 @@
 1685746815 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\departamento.cpp
 	"Departamento.h"
 
-1685747501 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\empleadosplanilla.cpp
+1685757891 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\empleadosplanilla.cpp
 	"EmpleadosPlanilla.h"
 
 1685747489 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\menus.cpp
@@ -184,6 +184,6 @@
 1685745963 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\puestos.cpp
 	"Puestos.h"
 
-1685747489 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\usuarioplanilla.cpp
+1685757980 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\usuarioplanilla.cpp
 	"UsuarioPlanilla.h"
 

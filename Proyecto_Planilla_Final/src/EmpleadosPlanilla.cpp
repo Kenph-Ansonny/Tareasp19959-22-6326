@@ -272,3 +272,5 @@ void EmpleadosPlanilla::imprimirEmpleados()
 	file.close();
 
 }
+
+

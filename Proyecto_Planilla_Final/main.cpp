@@ -7,9 +7,12 @@
 #include<iomanip>
 #include "UsuarioPlanilla.h"
 
+UsuarioPlanilla llamaPortada;
 using namespace std;
+
 int main()
 {
+    llamaPortada.dibujarPortada("Portada.txt");
     UsuarioPlanilla IngresoUsuario;
     int numero;
     do

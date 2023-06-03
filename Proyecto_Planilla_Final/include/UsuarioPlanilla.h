@@ -22,6 +22,7 @@ class UsuarioPlanilla
 		void borrarUsuario();
 		void modificarUsuario();
 		void buscarUsuario();
+		void dibujarPortada(string nombreArchivo);
 
 		private:
 		string nombre, contrasena;
