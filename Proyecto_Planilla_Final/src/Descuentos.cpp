@@ -13,7 +13,7 @@ using namespace std;
 
 void Descuentos::menuDescuentos()
 {
-    system("cls");
+
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n------------------------------------------------- Calculo Descuentos ---------------------------------------------"<<endl;
     fstream file;
@@ -73,18 +73,19 @@ void Descuentos::menuHorasExtra()
 	fstream file;
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n------------------------------------------------- Calculo Horas Extra ---------------------------------------------"<<endl;
+	cout<<"\n\t\t\tIngresa Horas Trabajadas: ";
+	cin>> horasTrabajadas;
+
     file.open("HorasExtra.txt",ios::in);
     file >> salarioDiario >> valorHoraNormal >> valorHoraExtra;
     {
-        cout<<"\n\t\t\tIngresa Horas Trabajadas: ";
-        cin>> horasTrabajadas;
         cout <<"\t\t\t\tHoras Trabajadas: "<< horasTrabajadas<<endl;
         totalHoras = horasTrabajadas * valorHoraExtra;
         cout <<"\t\t\t\tPago por Horas Extra: "<<totalHoras<<endl;
     file.close();
 	}
 	file.open("descuentos.txt",ios::app | ios::out);
-	file<<std::left<<setw(15)<<salarioDiario<<std::left<<setw(15)<<valorHoraNormal<<std::left<<setw(15)<<valorHoraExtra<<std::left<<(15)<<horasTrabajadas<<"\n";
+	file<<std::left<<setw(15)<<salarioDiario<<std::left<<setw(15)<<valorHoraNormal<<std::left<<setw(15)<<valorHoraExtra<<"\n";
 	file.close();
 }
 
@@ -116,8 +117,8 @@ void Descuentos::menuTotalPago()
 	file.open("descuentos.txt", ios::app | ios::out);
 	file <<std::left<<std::setw(15)<< totalSueldo << "\n";
 	file.close();
-	system("cls");
-	system("pause");
+	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
+	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 }
 

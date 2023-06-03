@@ -210,6 +210,7 @@ string Menus::menuProcesos(string nombreUsuario)
        system("cls");
        Descuentos menu;
        menu.menuDescuentos();
+       system("pause");
                 break;
     }
 
@@ -217,6 +218,8 @@ string Menus::menuProcesos(string nombreUsuario)
         system("cls");
         Descuentos menu;
         menu.menuHorasExtra();
+        system("cls");
+        system("pause");
 
     break;
     }
@@ -224,23 +227,27 @@ string Menus::menuProcesos(string nombreUsuario)
         system("cls");
         Descuentos menu;
         menu.menuTotalPago();
+        system("pause");
         break;
         }
     case 4:{
         system("cls");
         Porcentajes menu;
         menu.menuporcentajes();
+        system("pause");
         break;
         }
     case 5:{
         system("cls");
         HorasExtra menu;
         menu.menuHorasExtra();
+        system("pause");
         break;
         }
     case 6:{
         system("cls");
         menuCatalogos(userName);
+        system("pause");
         break;
     }
     default:

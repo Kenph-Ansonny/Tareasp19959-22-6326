@@ -11,7 +11,6 @@ using namespace std;
 
 void Informes::menuInformes()
 {
-system("cls");
     fstream file;
 	int found=0;
 	file.open("Puestos.txt",ios::in);
@@ -24,16 +23,15 @@ system("cls");
 	{
 		double participant_id;
 		cout<<"\n-------------------------Datos del Puesto Buscado------------------------"<<endl;
-		cout<<"\nIngrese Id del Puesto que quiere buscar: "<<endl;
+		cout<<"\nIngrese Id del Puesto que quiere buscar: ";
 		cin>>participant_id;
-		cout<<"\n"<<endl;
 		file >> idPuesto >> nombrePuesto >> encargadoPuesto >> tituloPuesto >> salarioPuesto;
 		while(!file.eof())
 		{
 			if(participant_id==idPuesto)
 			{
-				cout<<"\t\t\t Id Puesto        : "<<idPuesto<<endl;
-                cout<<"\t\t\t Nombre Puesto        : "<<nombrePuesto<<endl;
+				cout<<"\n\n\t\t\t Id Puesto        : "<<idPuesto<<endl;
+                cout<<"\n\n\t\t\t Nombre Puesto        : "<<nombrePuesto<<endl;
                 cout<<"\t\t\t Encargado Puesto         : "<<encargadoPuesto<<endl;
                 cout<<"\t\t\t Profesion del Encargado  : "<<tituloPuesto<<endl;
                 cout<<"\t\t\t Salario del Puesto       : "<<salarioPuesto<<endl;
@@ -50,9 +48,7 @@ system("cls");
 	file.open("valores.txt",ios::in);
     file >> porcentajeigss >>porcentajeIsr >> porcentajeSeguro;
     {
-    totalIgss = (salarioPuesto * porcentajeigss);
     cout <<"\t\t\t\tTotal IGSS: "<< totalIgss<<endl;
-    totalIsr = (salarioPuesto * porcentajeIsr);
     cout <<"\t\t\t\tTotal ISR: " << totalIsr << endl;
     totalSeguro = (salarioPuesto * porcentajeSeguro);
     cout <<"\t\t\t\tTotal seguro: " << totalSeguro<<endl;
@@ -62,9 +58,11 @@ system("cls");
     file.close();
 	}
 	file.open("HorasExtra.txt",ios::in);
-    file >> salarioDiario >> valorHoraNormal >> valorHoraExtra>> horasTrabajadas;
+    file >> salarioDiario >> valorHoraNormal >> valorHoraExtra;
     {
-    cout <<"\t\t\t\tPago por Horas Extra: "<<horasTrabajadas<<endl;
+        cout <<"\t\t\t\tHoras Trabajadas: "<< horasTrabajadas<<endl;
+        totalHoras = horasTrabajadas * valorHoraExtra;
+        cout <<"\t\t\t\tPago por Horas Extra: "<<totalHoras<<endl;
     file.close();
 	}
 	file.open("HorasExtra.txt",ios::in);
@@ -74,6 +72,5 @@ system("cls");
         cout <<"\n\t\t\t Total a pagarle es: " << totalSueldo <<endl;
     file.close();
 	}
-	system("cls");
-	system("pause");
+
 }

@@ -174,7 +174,7 @@
 1685764883 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\empleadosplanilla.cpp
 	"EmpleadosPlanilla.h"
 
-1685765799 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\menus.cpp
+1685768539 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\menus.cpp
 	"Menus.h"
 	<iostream>
 	<fstream>
@@ -187,10 +187,10 @@
 1685765220 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\puestos.cpp
 	"Puestos.h"
 
-1685757980 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\usuarioplanilla.cpp
+1685766881 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\usuarioplanilla.cpp
 	"UsuarioPlanilla.h"
 
-1685766341 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\porcentajes.cpp
+1685769672 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\porcentajes.cpp
 	"Porcentajes.h"
 	<iostream>
 	<fstream>
@@ -210,7 +210,7 @@
 	"Menus.h"
 	"Bitacora.h"
 
-1685766261 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\descuentos.cpp
+1685769672 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\descuentos.cpp
 	"Descuentos.h"
 	<iostream>
 	<fstream>
@@ -242,7 +242,7 @@
 	"Menus.h"
 	"Bitacora.h"
 
-1685766341 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\horasextra.cpp
+1685769400 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\horasextra.cpp
 	"HorasExtra.h"
 	<iostream>
 	<fstream>
@@ -262,7 +262,7 @@
 	"Menus.h"
 	"Bitacora.h"
 
-1685766341 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\informes.cpp
+1685769672 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\informes.cpp
 	"Informes.h"
 	<iostream>
 	<fstream>
