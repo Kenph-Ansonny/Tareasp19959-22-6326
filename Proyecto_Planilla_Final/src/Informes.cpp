@@ -11,6 +11,7 @@ using namespace std;
 
 void Informes::menuInformes()
 {
+system("cls");
     fstream file;
 	int found=0;
 	file.open("Puestos.txt",ios::in);
@@ -73,5 +74,6 @@ void Informes::menuInformes()
         cout <<"\n\t\t\t Total a pagarle es: " << totalSueldo <<endl;
     file.close();
 	}
-
+	system("cls");
+	system("pause");
 }

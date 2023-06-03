@@ -41,12 +41,14 @@ void UsuarioPlanilla::iniciarSesion()
     {
         if(nombreUsuario == nombre && contra == contrasena)
         {
+            enviarDatosU.ingresoDatosBitacora(nombreUsuario,"7000","LOGIN");
             llamarMenu.menuInicial(nombreUsuario);
             return;
             found++;
-            enviarDatosU.ingresoDatosBitacora(nombreUsuario,"7000", "LOG");
+
         }
         file >> nombre >> contrasena;
+
     }
     if(found==0)
     {
@@ -83,20 +85,20 @@ string UsuarioPlanilla::menuUsuario(string nombreUsuario)
         switch(opcion)
         {
         case 1:
-                imprimirUsuario();
-            enviarDatosU.ingresoDatosBitacora(userName,"7400","IMP");
+                imprimirUsuario(userName);
+
             break;
         case 2:
-            modificarUsuario();
-            enviarDatosU.ingresoDatosBitacora(userName,"7410","MOD");
+            modificarUsuario(userName);
+
             break;
         case 3:
-            buscarUsuario();
-            enviarDatosU.ingresoDatosBitacora(userName,"7420","SRC");
+            buscarUsuario(userName);
+
             break;
         case 4:
-            borrarUsuario();
-            enviarDatosU.ingresoDatosBitacora(userName,"7430","DEL");
+            borrarUsuario(userName);
+
             break;
         case 5:
             llamarMenu.subMenuInformes(userName);
@@ -110,6 +112,7 @@ string UsuarioPlanilla::menuUsuario(string nombreUsuario)
 }
 void UsuarioPlanilla::registroUsuario()
 {
+
 	system("cls");
 	fstream file;
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
@@ -122,8 +125,10 @@ void UsuarioPlanilla::registroUsuario()
 	file<<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< contrasena<< "\n";
 	file.close();
 }
-void UsuarioPlanilla::modificarUsuario()
+void UsuarioPlanilla::modificarUsuario(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+                enviarDatosU.ingresoDatosBitacora(userName,"7410","MOD");
 	system("cls");
 	fstream file,file1;
 	string name, c2;
@@ -175,8 +180,10 @@ void UsuarioPlanilla::modificarUsuario()
     remove("Usuario.txt");
     rename("Record.txt","Usuario.txt");
 }
-void UsuarioPlanilla::imprimirUsuario()
+void UsuarioPlanilla::imprimirUsuario(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+    enviarDatosU.ingresoDatosBitacora(userName,"7400","IMP");
     system("cls");
 	fstream file;
 	int total=0;
@@ -205,8 +212,10 @@ void UsuarioPlanilla::imprimirUsuario()
 	system("pause");
 	file.close();
 }
-void UsuarioPlanilla::buscarUsuario()
+void UsuarioPlanilla::buscarUsuario(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+                enviarDatosU.ingresoDatosBitacora(userName,"7420","SRC");
 	system("cls");
 	fstream file;
 	int found=0;
@@ -240,8 +249,10 @@ void UsuarioPlanilla::buscarUsuario()
 		file.close();
 	}
 }
-void UsuarioPlanilla::borrarUsuario()
+void UsuarioPlanilla::borrarUsuario(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+                enviarDatosU.ingresoDatosBitacora(userName,"7430","DEL");
 	system("cls");
 	fstream file,file1;
 	string name, c2;

@@ -50,6 +50,7 @@ string Menus::menuInicial(string nombreUsuario)
 
     case 2:{
         system("cls");
+        menuProcesos(userName);
     break;
     }
     case 3:{
@@ -239,7 +240,7 @@ string Menus::menuProcesos(string nombreUsuario)
         }
     case 6:{
         system("cls");
-        exit (0);
+        menuCatalogos(userName);
         break;
     }
     default:
