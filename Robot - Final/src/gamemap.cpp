@@ -38,15 +38,15 @@ bool gamemap::setPlayerCell(int playerX, int playerY)
             if (playerCell != NULL)
             {
                 // Cambio permitira quitar los ceros en el camino del jugador, al traslador un cero a un char se convierte en espacio
-                //playerCell->id='0';
                 playerCell->id='0';
+                playerCell->id= 5 ;
             }
             //cout << "Las coordenadas del jugador estan en: " << playerX << "," << playerY << endl;
             //Cambio de coordenadas para corregiro problema de los movimientos del jugador en el eje X
             //playerCell = &cell[playerY][playerX];
             playerCell = &cell[playerX][playerY];
 
-          //ascii 169;
+          //ascii 169
         }
 
         return true;
@@ -71,7 +71,7 @@ void gamemap::loadMapFromFile()
             //cout << line << endl;
             for (int p = 0; p < line.length(); p++)
             {
-                if (line[p] == '0')
+                if (line[p] == ' ')
                 {
                     cell[row][p].id = 0;
                 } else
@@ -79,7 +79,7 @@ void gamemap::loadMapFromFile()
                     cell[row][p].id = line[p];
                 }
                 // Cambio para quitar ceros y colocar espacios en blanco en el mapa
-                // cell[row][p].id = line[p];
+                cell[row][p].id = line[p];
             }
 
             row++;

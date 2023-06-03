@@ -49,19 +49,19 @@ void player::callInput()
         lastY = y;
         // y = y - 1;  Correccion de error de movimientos eje Y;
         y = y + 1;
-        //cout << "El jugador se mueve abajo" << endl;
+        cout << "El jugador se mueve abajo" << endl;
         break;
     case 's':
         // Cambio que permitira guardar la posicion del jugador eje Y
         lastX = x;
         x = x + 1;
-        //cout << "El jugador se mueve derecha" << endl;
+        cout << "El jugador se mueve derecha" << endl;
         break;
     case 'w':
         // Cambio que permitira guardar la posicion del jugador eje Y
         lastX = x;
         x = x - 1;
-        //cout << "El jugador se mueve izquierda" << endl;
+        cout << "El jugador se mueve izquierda" << endl;
         break;
     case 'x':
         cout << " -- Juego Terminado -- :(" << endl << endl;
@@ -69,7 +69,7 @@ void player::callInput()
         cout << endl;
         exit(0);
     }
-    //cout << "El jugador esta en las coordenadas -> " << "X=" << x << " Y=" << y << " GuardaX=" << lastX << "GuardaY=" << lastY << endl;
+    cout << "El jugador esta en las coordenadas -> " << "X=" << x << " Y=" << y << " GuardaX=" << lastX << "GuardaY=" << lastY << endl;
 }
 void player::resetToSafePosition()
 {

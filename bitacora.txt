@@ -1,0 +1,251 @@
+commit 8ed5d2ccc47610416fa28c01a58a7e6b359d575e
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 23:27:25 2023 -0600
+
+    Finalizacion Planilla (ahora si)
+
+commit 43e7cae789e82e58c9350463c0538bf1649058f2
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 22:49:09 2023 -0600
+
+    Finalizacion Proyecto
+
+commit 3603150fdc7eb410da085f8278ec0ba1d075d825
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 22:36:14 2023 -0600
+
+    Finalizacion de Proyecto
+
+commit 45698df1ec44b7c0c7258bfb9246baddfd2e66c8
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 22:13:37 2023 -0600
+
+    Resolver Problema Bitacora
+
+commit b79a1319b0f57e41ec4e521ecbb683d651528c10
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 21:30:37 2023 -0600
+
+    Actualizacion de Portada
+
+commit 09647418c8a1490d27f04396e6cb88e85e230bac
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Fri Jun 2 17:39:05 2023 -0600
+
+    Correcion de Bitacora-Menus y Creacion de Proyecto_Final
+
+commit c80311c0c5cc66e9130689e1d346daa422e8df37
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed May 31 18:09:47 2023 -0600
+
+    Ajustes a la Bitacora
+
+commit 99213d6c0eb2d1602bc6c8e37e6c3dac641c4807
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sun May 28 19:18:06 2023 -0600
+
+    Actualizacion bitacora
+
+commit 3e3fe7c2c00f2a9a41c72297510dc0afa3fcd5e1
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon May 22 09:31:11 2023 -0600
+
+    Actualizacion de Catalogos
+
+commit f210537758daa8184020771623fe75c382fc62dc
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon May 22 08:58:39 2023 -0600
+
+    Mantenimiento Catalogo
+
+commit dd7eb01dbdf6c5b9f4c5600e2e8ba58c0fae52fd
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon May 22 01:36:44 2023 -0600
+
+    Actualización e implementando funciones
+
+commit 6b9e737ef8e8c30d0a704335ad7b6ece250b0097
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Tue May 16 18:47:10 2023 -0600
+
+    Inicio de Bitacora
+
+commit d0181eb17b587d363dbbf6674356a1b387202cfd
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Tue May 16 18:05:10 2023 -0600
+
+    Avance del Proyecto Planillas
+
+commit 4b2c7294159446e99a684ce045b1e6185bc2976b
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon May 8 11:56:55 2023 -0600
+
+    Subida de archivos
+
+commit 8c7142a817363de4693d5cd8c2beddf24597e660
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Apr 19 11:44:33 2023 -0600
+
+    Subida del prototipo de Examen Parcial 2, Serie 3
+
+commit aef24a295e31c8122c18f1fb86a72e8c2f528b1d
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Apr 19 11:42:39 2023 -0600
+
+    Subida del Prototipo de la Serie 3
+
+commit 1df8581a883ece035fabb8d611b1ba8b22edb77f
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Apr 17 19:46:07 2023 -0600
+
+    Juego Buscaminas Terminado
+
+commit c94c91d2284da42cecc02d7316fb538e5f997c5a
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Apr 17 12:45:02 2023 -0600
+
+    Juego Buscaminas Completado
+
+commit 2e2c2debfed2498c8fbd707ebc53b435d2a33602
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sun Apr 16 16:56:24 2023 -0600
+
+    Nomina
+
+commit c2ac4eec215739b72dd78723ec4d7f1e90ed0924
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sun Apr 16 12:08:15 2023 -0600
+
+    Actualización
+
+commit 361df74a5e78c064ebf1586151173d2977ce83ac
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sat Apr 15 12:58:00 2023 -0600
+
+    Archivo actualizado
+
+commit f2a230e50dfb79f59775cfb2f9557a4415752d91
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Apr 12 17:41:45 2023 -0600
+
+    actualización de Juego implementando la clase Jugador
+
+commit 81a7ad5d2eb6eb959311389846db50e5ac39d0e4
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sun Apr 2 12:00:24 2023 -0600
+
+    Documentacion del juego y problema arreglado del Sistema CRUD
+
+commit 2fe3eec86dc1f7e12bb99c017e343c51f27bf59b
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Mar 27 21:35:51 2023 -0600
+
+    Tarea capitulo 6
+
+commit c519be23eca73c1b2838af2bbe7bdf583d17115b
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Mar 20 18:47:27 2023 -0600
+
+    Sunida del juego la torre de Hanoi
+
+commit c521de81484a082e6ac06c312d4f2afd8f605bde
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Thu Mar 9 19:06:34 2023 -0600
+
+    Subida del Programa Ligas Nacionales (Parcial1 - Serie 3) con Headers
+
+commit 26ce4ba4ca1599c1924e05ead6d28df3775fcaf2
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Thu Mar 9 18:57:23 2023 -0600
+
+    Subida del Programa Ligas_Nacionales (Parcial 1 - Serie 3)
+
+commit 39df83a0d6a0a4bc7a70a7ad5bb8656d1e93cf71
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Mar 1 10:55:23 2023 -0600
+
+    Envio de Examen
+
+commit b3b85f7c4a293d1e15a4fd53384d07d3f0c09a77
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sun Feb 19 17:38:32 2023 -0600
+
+    Subida de Tarea de NotasMatrices y NotasVectores
+
+commit 7dcd5b1abe6ada180055f73e5c58f90dff423523
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Feb 8 10:14:36 2023 -0600
+
+    Laboratorio 1 de Programacion
+
+commit e31e102c86472f05ce2a399d1043ecaa2cf1f889
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Feb 8 08:22:40 2023 -0600
+
+    Subida de Todos los ejercicios pendientes del Libro
+
+commit 7a9794de069c2eda64beec74995266e92feff18d
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Feb 8 08:00:36 2023 -0600
+
+    Subida de Archivos de ejercicios del Libro -Grupo 2-
+
+commit 77712e16c224c4bec6abcda4624dae76b4752fc6
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Feb 8 07:44:43 2023 -0600
+
+    Subida de ejercicios de Compañeros de grupo - Libro -
+
+commit b7e629ea938e3c093f0ecf161b381a4642e4364a
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Tue Feb 7 18:12:13 2023 -0600
+
+    Subida de mas ejercicios del Libro
+
+commit 30cb97e6db54825214c939048d4491476aa9a7fd
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Tue Feb 7 17:54:58 2023 -0600
+
+    Subida de ejercicio del Libro
+
+commit 9f836b34690b94304c64ea644c7d32f30e1ab4b0
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Feb 6 19:40:24 2023 -0600
+
+    Se completo el proyecto de MenuCalculadora
+
+commit 02324b64dbbf3274bf229bbc41b682fb088ecfad
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Feb 6 16:40:00 2023 -0600
+
+    Subida de Otro ejercicio del Libro
+
+commit 147cdd1f2ca667e5edf581ac7f731f9eaa3cb26b
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Mon Feb 6 16:19:21 2023 -0600
+
+    Subida de MenuCalculadora y Ejercicios del Libro
+
+commit e8ed018a04564744339e4acae0d2ae08cc78f924
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Sat Feb 4 12:04:08 2023 -0600
+
+    Envio de archivos -Calculadora- Variables - Primer Programa
+
+commit b0b27d1bec4437fe5e0419800c995aa3234bfef5
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Jan 25 09:48:41 2023 -0600
+
+    Agregando primer programa -Hola Mundo-
+
+commit 264bdc88b840990bca2584decbb59a5f4b34dfe5
+Author: kenph Ansonny Luna Martinez <ansonny54@gmail.com>
+Date:   Wed Jan 25 09:15:40 2023 -0600
+
+    Cambios de las Variables - SUbida de Carpeta
+
+commit bb9aa9bde993af4ef36b7485b6373551aecd0a0c
+Author: Kenph-Ansonny <123000188+Kenph-Ansonny@users.noreply.github.com>
+Date:   Wed Jan 25 09:00:26 2023 -0600
+
+    Initial commit

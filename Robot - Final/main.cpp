@@ -10,7 +10,6 @@ int main()
     // Aplicativo elaborado en el curso de Programacion I - Universidad Mariano Galvez
     // desarrollador: daguilae - Marzo 2022
 
-
     gamemap map;
     player hero;
     map.drawPortada();
@@ -23,7 +22,7 @@ int main()
       //Actualizar información del jugador en el mapa
       if(map.setPlayerCell(hero.getValueX(), hero.getValueY()))
       {
-     //   system("cls");
+        system("cls");
         map.draw();
       } else
       {
