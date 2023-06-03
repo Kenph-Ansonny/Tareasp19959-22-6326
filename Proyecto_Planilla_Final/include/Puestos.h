@@ -14,11 +14,11 @@ class Puestos
 {
     public:
         string menuPuestos(string nombreUsuario);
-        void insertarPuestos();
-		void modificarPuestos();
-		void buscarPuestos();
-		void borrarPuestos();
-		void imprimirPuestos();
+        void insertarPuestos(string nombreUsuario);
+		void modificarPuestos(string nombreUsuario);
+		void buscarPuestos(string nombreUsuario);
+		void borrarPuestos(string nombreUsuario);
+		void imprimirPuestos(string nombreUsuario);
 
 
     protected:

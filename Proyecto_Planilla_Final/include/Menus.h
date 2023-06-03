@@ -6,11 +6,14 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
-#include "UsuarioPlanilla.h"
 #include "EmpleadosPlanilla.h"
-#include "Puestos.h"
 #include "Departamento.h"
+#include "Puestos.h"
 #include "Bitacora.h"
+#include "Descuentos.h"
+#include "Porcentajes.h"
+#include "HorasExtra.h"
+#include "Informes.h"
 
 using namespace std;
 
@@ -21,6 +24,7 @@ class Menus
         string menuCatalogos(string nombreUsuario);
         string subMenuEmpleados(string nombreUsuario);
         string subMenuInformes(string nombreUsuario);
+        string menuProcesos(string nombreUsuario);
 
     protected:
 

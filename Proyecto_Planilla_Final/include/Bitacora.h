@@ -13,7 +13,7 @@ using namespace std;
 class Bitacora
 {
     public:
-        string ingresoDatosBitacora(string nombreUsuario, string numeAccion, string accionRealizada);
+        void ingresoDatosBitacora(string nombreUsuario, string numeAccion, string accionRealizada);
         void imprimirDatosBitacora();
 
 

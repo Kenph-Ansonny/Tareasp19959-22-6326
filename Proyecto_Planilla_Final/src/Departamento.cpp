@@ -36,34 +36,34 @@ string Departamento::DepartamentosPlanilla(string nombreUsuario)
         switch(choice)
         {
             case 1:
-                menu2.NuevosDepartamentos();
+                menu2.NuevosDepartamentos(userName);
                 cout<<"Guardado Con Exito"<<endl;
             system("cls");
-            enviarDatosD.ingresoDatosBitacora(userName,"7300","ING");
+
             break;
 
             case 2:
-                menu2.BuscarDepartamentos();
+                menu2.BuscarDepartamentos(userName);
             system("cls");
-            enviarDatosD.ingresoDatosBitacora(userName,"7310","SRC");
+
             break;
 
             case 3:
-                menu2.ModificarDepartamentos();
+                menu2.ModificarDepartamentos(userName);
             system("cls");
-            enviarDatosD.ingresoDatosBitacora(userName,"7320","MOD");
+
             break;
 
             case 4:
-                menu2.eliminarDepartamento();
+                menu2.eliminarDepartamento(userName);
             system("cls");
-            enviarDatosD.ingresoDatosBitacora(userName,"7330","DEL");
+
             break;
 
             case 5:
-                menu2.imprimirDepartamento();
+                menu2.imprimirDepartamento(userName);
             system("cls");
-            enviarDatosD.ingresoDatosBitacora(userName,"7340","IMP");
+
             break;
 
             case 6:
@@ -78,7 +78,9 @@ string Departamento::DepartamentosPlanilla(string nombreUsuario)
     }while(choice!=6);
 }
 
-void Departamento::NuevosDepartamentos(){
+void Departamento::NuevosDepartamentos(string nombreUsuario){
+    string userName = nombreUsuario;
+    enviarDatosD.ingresoDatosBitacora(userName,"7300","ING");
     fstream file;
     cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n-------------------------------------------------Ingreso de Departamentos -------------------------------------------"<<endl;
@@ -96,7 +98,9 @@ void Departamento::NuevosDepartamentos(){
 	getch();
 }
 
-void Departamento::BuscarDepartamentos(){
+void Departamento::BuscarDepartamentos(string nombreUsuario){
+    string userName = nombreUsuario;
+     enviarDatosD.ingresoDatosBitacora(userName,"7310","SRC");
     fstream file;
 	int found=0;
 	file.open("DepartamentosPlanilla.txt",ios::in);
@@ -133,8 +137,9 @@ void Departamento::BuscarDepartamentos(){
 	}
 }
 
-void Departamento::ModificarDepartamentos(){
-
+void Departamento::ModificarDepartamentos(string nombreUsuario){
+    string userName = nombreUsuario;
+enviarDatosD.ingresoDatosBitacora(userName,"7320","MOD");
     fstream file,file1;
 	string participant_id;
 	int found=0;
@@ -181,8 +186,9 @@ void Departamento::ModificarDepartamentos(){
 	}
 }
 
-void Departamento::eliminarDepartamento(){
-
+void Departamento::eliminarDepartamento(string nombreUsuario){
+    string userName = nombreUsuario;
+enviarDatosD.ingresoDatosBitacora(userName,"7330","DEL");
  fstream file,file1;
 	string participant_id;
 	int found=0;
@@ -225,7 +231,9 @@ void Departamento::eliminarDepartamento(){
 	}
 }
 
-void Departamento::imprimirDepartamento(){
+void Departamento::imprimirDepartamento(string nombreUsuario){
+    string userName = nombreUsuario;
+    enviarDatosD.ingresoDatosBitacora(userName,"7340","IMP");
     system("cls");
     fstream file;
 	int total=0;

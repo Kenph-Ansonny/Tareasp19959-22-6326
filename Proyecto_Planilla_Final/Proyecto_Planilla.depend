@@ -112,20 +112,23 @@
 	<iomanip>
 	"Menus.h"
 
-1685745267 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\menus.h
+1685765424 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\menus.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 	<cstdlib>
 	<conio.h>
 	<iomanip>
-	"UsuarioPlanilla.h"
 	"EmpleadosPlanilla.h"
+	"Departamento.h"
 	"Puestos.h"
-	"Departamento.h"
 	"Bitacora.h"
+	"Descuentos.h"
+	"Porcentajes.h"
+	"HorasExtra.h"
+	"Informes.h"
 
-1685743961 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\empleadosplanilla.h
+1685764883 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\empleadosplanilla.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -135,7 +138,7 @@
 	"Menus.h"
 	"UsuarioPlanilla.h"
 
-1685744715 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\puestos.h
+1685765220 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\puestos.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -144,7 +147,7 @@
 	<iomanip>
 	"Menus.h"
 
-1685744244 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\departamento.h
+1685765044 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\departamento.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -153,7 +156,7 @@
 	<iomanip>
 	"Menus.h"
 
-1685745145 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\bitacora.h
+1685764726 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\bitacora.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -162,16 +165,16 @@
 	<iomanip>
 	<ctime>
 
-1685745267 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\bitacora.cpp
+1685764711 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\bitacora.cpp
 	"Bitacora.h"
 
-1685746815 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\departamento.cpp
+1685765044 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\departamento.cpp
 	"Departamento.h"
 
-1685757891 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\empleadosplanilla.cpp
+1685764883 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\empleadosplanilla.cpp
 	"EmpleadosPlanilla.h"
 
-1685747489 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\menus.cpp
+1685765532 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\menus.cpp
 	"Menus.h"
 	<iostream>
 	<fstream>
@@ -181,9 +184,91 @@
 	<iomanip>
 	<ctime>
 
-1685745963 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\puestos.cpp
+1685765220 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\puestos.cpp
 	"Puestos.h"
 
 1685757980 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\usuarioplanilla.cpp
 	"UsuarioPlanilla.h"
+
+1685763240 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\porcentajes.cpp
+	"Porcentajes.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Puestos.h"
+
+1685763240 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\porcentajes.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+	"Bitacora.h"
+
+1685763183 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\descuentos.cpp
+	"Descuentos.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Puestos.h"
+	"Porcentajes.h"
+	"HorasExtra.h"
+
+1685763183 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\descuentos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+	"Bitacora.h"
+
+1685763296 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\horasextra.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+	"Bitacora.h"
+
+1685763296 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\horasextra.cpp
+	"HorasExtra.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Puestos.h"
+
+1685765489 c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\include\informes.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Menus.h"
+	"Bitacora.h"
+
+1685765489 source:c:\users\kenph\dropbox\mi pc (laptop-kh5s24mu)\documents\c++\tareasp19959-22-6326\proyecto_planilla_final\src\informes.cpp
+	"Informes.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"Puestos.h"
 

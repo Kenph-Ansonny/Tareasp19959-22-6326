@@ -15,11 +15,11 @@ class EmpleadosPlanilla
 {
     public:
         string  menuEmpleadosPlanilla(string nombreUsuario);
-        void insertarEmpleado();
-		void modificarEmpleado();
-		void buscarEmpleado();
-		void borrarEmpleado();
-		void imprimirEmpleados();
+        void insertarEmpleado(string nombreUsuario);
+		void modificarEmpleado(string nombreUsuario);
+		void buscarEmpleado(string nombreUsuario);
+		void borrarEmpleado(string nombreUsuario);
+		void imprimirEmpleados(string nombreUsuario);
 
 
     protected:

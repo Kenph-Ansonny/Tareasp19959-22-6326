@@ -39,31 +39,31 @@ string EmpleadosPlanilla::menuEmpleadosPlanilla(string nombreUsuario)
         system("cls");
         do
     	{
-    		menu.insertarEmpleado();
+    		menu.insertarEmpleado(userName);
     		cout<<"\n\t\t\t Agregar Otro Empleado (Y,N): ";
     		cin>>x;
 		}while(x=='y'||x=='Y');
-		enviarDatosE.ingresoDatosBitacora(userName,"7100","ING");
+
 		break;
 	case 2:
 	    system("cls");
-		menu.buscarEmpleado();
-		enviarDatosE.ingresoDatosBitacora(userName,"7110","BUS");
+		menu.buscarEmpleado(userName);
+
 		break;
 	case 3:
 	    system("cls");
-		menu.modificarEmpleado();
-		enviarDatosE.ingresoDatosBitacora(userName,"7120","MOD");
+		menu.modificarEmpleado(userName);
+
 		break;
 	case 4:
 	    system("cls");
-		menu.borrarEmpleado();
-		enviarDatosE.ingresoDatosBitacora(userName,"7130","DEL");
+		menu.borrarEmpleado(userName);
+
 		break;
     case 5:
 		system("cls");
-		menu.imprimirEmpleados();
-		enviarDatosE.ingresoDatosBitacora(userName,"7140","IMP");
+		menu.imprimirEmpleados(userName);
+
 		break;
 	case 6:
 	    system("cls");
@@ -76,9 +76,10 @@ string EmpleadosPlanilla::menuEmpleadosPlanilla(string nombreUsuario)
     }while(repetir);
 }
 
-void EmpleadosPlanilla::insertarEmpleado()
+void EmpleadosPlanilla::insertarEmpleado(string nombreUsuario)
 {
-
+    string userName = nombreUsuario;
+    enviarDatosE.ingresoDatosBitacora(userName,"7100","ING");
 	fstream file;
 	cout<<"\n-------------------------------------------------Ingreso de Empleados -------------------------------------------"<<endl;
 	cout<<"\t\t\tIngresa Id del Empleado           : ";
@@ -99,9 +100,10 @@ void EmpleadosPlanilla::insertarEmpleado()
 
 }
 
-void EmpleadosPlanilla::buscarEmpleado()
+void EmpleadosPlanilla::buscarEmpleado(string nombreUsuario)
 {
-
+    string userName = nombreUsuario;
+    enviarDatosE.ingresoDatosBitacora(userName,"7110","BUS");
     fstream file;
 	int found=0;
 	file.open("EmpleadoPlanilla.txt",ios::in);
@@ -140,9 +142,10 @@ void EmpleadosPlanilla::buscarEmpleado()
 
 }
 
-void EmpleadosPlanilla::modificarEmpleado()
+void EmpleadosPlanilla::modificarEmpleado(string nombreUsuario)
 {
-
+string userName = nombreUsuario;
+enviarDatosE.ingresoDatosBitacora(userName,"7120","MOD");
     fstream file,file1;
 	string participant_id;
 	int found=0;
@@ -193,9 +196,10 @@ void EmpleadosPlanilla::modificarEmpleado()
 
 }
 
-void EmpleadosPlanilla::borrarEmpleado()
+void EmpleadosPlanilla::borrarEmpleado(string nombreUsuario)
 {
-
+string userName = nombreUsuario;
+enviarDatosE.ingresoDatosBitacora(userName,"7130","DEL");
     fstream file,file1;
 	string participant_id;
 	int found=0;
@@ -237,9 +241,10 @@ void EmpleadosPlanilla::borrarEmpleado()
 
 }
 
-void EmpleadosPlanilla::imprimirEmpleados()
+void EmpleadosPlanilla::imprimirEmpleados(string nombreUsuario)
 {
-
+string userName = nombreUsuario;
+enviarDatosE.ingresoDatosBitacora(userName,"7140","IMP");
 
    fstream file;
 	int total=0;

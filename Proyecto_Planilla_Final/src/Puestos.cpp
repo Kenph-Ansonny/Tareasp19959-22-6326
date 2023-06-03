@@ -39,31 +39,30 @@ string Puestos::menuPuestos(string nombreUsuario)
         system("cls");
         do
     	{
-    		menu.insertarPuestos();
+    		menu.insertarPuestos(userName);
     		cout<<"\n\t\t\t Agregar Otro Empleado (Y,N): ";
     		cin>>x;
 		}while(x=='y'||x=='Y');
-		enviarDatosP.ingresoDatosBitacora(userName,"7200","ING");
+
 		break;
 	case 2:
 	    system("cls");
-		menu.buscarPuestos();
-		enviarDatosP.ingresoDatosBitacora(userName,"7210","SRC");
+		menu.buscarPuestos(userName);
 		break;
 	case 3:
 	    system("cls");
-		menu.modificarPuestos();
-		enviarDatosP.ingresoDatosBitacora(userName,"7220","MOD");
+		menu.modificarPuestos(userName);
+
 		break;
 	case 4:
 	    system("cls");
-		menu.borrarPuestos();
-		enviarDatosP.ingresoDatosBitacora(userName,"7230","DEL");
+		menu.borrarPuestos(userName);
+
 		break;
     case 5:
 		system("cls");
-		menu.imprimirPuestos();
-		enviarDatosP.ingresoDatosBitacora(userName,"7240","IMP");
+		menu.imprimirPuestos(userName);
+
 		break;
 	case 6:
 	    system("cls");
@@ -76,8 +75,10 @@ string Puestos::menuPuestos(string nombreUsuario)
     }while(repetir);
 }
 
-void Puestos::insertarPuestos()
+void Puestos::insertarPuestos(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+    enviarDatosP.ingresoDatosBitacora(userName,"7200","ING");
     string accion = "7001";
 	fstream file;
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
@@ -97,8 +98,11 @@ void Puestos::insertarPuestos()
 	file.close();
 }
 
-void Puestos::buscarPuestos()
+void Puestos::buscarPuestos(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+enviarDatosP.ingresoDatosBitacora(userName,"7210","SRC");
+
     string accion = "7002";
     fstream file;
 	int found=0;
@@ -136,9 +140,11 @@ void Puestos::buscarPuestos()
 	}
 }
 
-void Puestos::modificarPuestos()
+void Puestos::modificarPuestos(string nombreUsuario)
 {
-    string accion = "7003";
+    string userName = nombreUsuario;
+    enviarDatosP.ingresoDatosBitacora(userName,"7220","MOD");
+
     fstream file,file1;
 	string participant_id;
 	int found=0;
@@ -186,8 +192,10 @@ void Puestos::modificarPuestos()
 	}
 }
 
-void Puestos::borrarPuestos()
+void Puestos::borrarPuestos(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+    		enviarDatosP.ingresoDatosBitacora(userName,"7230","DEL");
     string accion = "7004";
     fstream file,file1;
 	string participant_id;
@@ -229,8 +237,10 @@ void Puestos::borrarPuestos()
 	}
 }
 
-void Puestos::imprimirPuestos()
+void Puestos::imprimirPuestos(string nombreUsuario)
 {
+    string userName = nombreUsuario;
+    		enviarDatosP.ingresoDatosBitacora(userName,"7240","IMP");
    string accion = "7005";
    fstream file;
 	int total=0;

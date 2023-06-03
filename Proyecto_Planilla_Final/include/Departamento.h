@@ -15,11 +15,11 @@ class Departamento
 {
     public:
       string DepartamentosPlanilla(string nombreUsuario);
-      void NuevosDepartamentos();
-      void BuscarDepartamentos();
-      void ModificarDepartamentos();
-      void eliminarDepartamento();
-      void imprimirDepartamento();
+      void NuevosDepartamentos(string nombreUsuario);
+      void BuscarDepartamentos(string nombreUsuario);
+      void ModificarDepartamentos(string nombreUsuario);
+      void eliminarDepartamento(string nombreUsuario);
+      void imprimirDepartamento(string nombreUsuario);
 
 
     protected:

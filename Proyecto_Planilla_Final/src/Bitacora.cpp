@@ -1,6 +1,6 @@
 #include "Bitacora.h"
 
-string Bitacora::ingresoDatosBitacora(string nombreUsuario, string numeAccion, string accionRealizada)
+void Bitacora::ingresoDatosBitacora(string nombreUsuario, string numeAccion, string accionRealizada)
 {
     system("cls");
 	fstream file;
